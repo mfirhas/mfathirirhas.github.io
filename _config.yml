@@ -16,6 +16,7 @@ gems:                [jekyll-paginate, jekyll-gist]
 paginate:            5
 paginate_path:       "page:num"
 disqus:              mfathirirhas
+facebook_app_id:     164966023945794
 
 # About/contact
 author:
