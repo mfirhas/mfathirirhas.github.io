@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 categories: Content-Markdown
+comments: true
 ---
 
 This post is showing some example of how to customize content markdown.
