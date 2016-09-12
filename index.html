@@ -17,7 +17,15 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a></hr>
+        {% if site.disqus_shortname %}
+              &middot;
+              <a href="{{ site.url }}{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+              {% if post.update_date %}
+                &middot;
+                Updated {{ post.update_date | date: site.date_format }}
+              {% endif %}
+        {% endif %}
+    <!--<a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a></hr>-->
     <!-- {{ post.content }} -->
     {{ post.excerpt}}
     <p align="right"><a href="{{ site.url }}{{ post.url }}">Read More &raquo</a></p>
