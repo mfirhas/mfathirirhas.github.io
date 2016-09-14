@@ -7,6 +7,7 @@ title: Home
 <!--<script id="dsq-count-scr" src="//mfathirirhas.disqus.com/count.js" async></script>-->
 <!--End disqus comments count-->
 
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -19,7 +20,7 @@ title: Home
     <span class="post-date">{{ post.date | date_to_string }}
         {% if site.disqus_shortname %}
               &middot;
-              <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">0 Comments</a>
+              <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
               {% if post.update_date %}
                 &middot;
                 Updated {{ post.update_date | date: site.date_format }}
@@ -34,6 +35,10 @@ title: Home
   </div>
   {% endfor %}
 </div>
+
+<p>{% include share.html %}</p>
+</br>
+<!-- </br> -->
 
 <div class="pagination">
   {% if paginator.next_page %}
@@ -54,7 +59,7 @@ title: Home
 
 
 <!-- Add Disqus comment count (not the comments) -->
-<!--<script id="dsq-count-scr" src="//mfathirirhas.disqus.com/count.js" async></script>-->
+<script id="dsq-count-scr" src="//mfathirirhas.disqus.com/count.js" async></script>
 
 <!--{% if site.disqus_shortname %}-->
 <!--<script type="text/javascript">-->
