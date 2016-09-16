@@ -21,7 +21,7 @@ sitemap: false
      <gcse:search queryParameterName="searchString"></gcse:search>
  </div> -->
 
- <!-- From google -->
+<div id="home-search"> 
  <script>
   (function() {
     var cx = '018380072962087231429:-fwviaiwhqq';
@@ -34,3 +34,4 @@ sitemap: false
   })();
 </script>
 <gcse:search></gcse:search>
+</div>
