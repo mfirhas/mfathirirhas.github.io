@@ -18,6 +18,10 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}
+        {% if post.author %}
+            &middot;
+            By {{ post.author }}
+        {% endif %}
         {% if site.disqus_shortname %}
               &middot;
               <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>

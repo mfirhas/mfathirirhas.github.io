@@ -7,22 +7,63 @@
 
     {% include sidebar.html %}
 
+    <style type="text/css">
+      input[type=text] {
+        padding:5px; border:2px solid #ccc; 
+        -webkit-border-radius: 5px;
+        /*border-radius: 5px;*/
+        border: 0 none;
+        border-bottom:1px solid #1e2f45;
+        width: 150px;
+        -webkit-transition: width .35s ease-in-out;
+        transition: width .35s ease-in-out;
+      }
+
+      input[type=text]:focus {
+        /*border-color:#ffffff;*/
+        border: 0 none;
+        width: 250px; 
+      }
+
+      input[type=submit] {
+        padding:5px 15px; background:#ccc; border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+      }
+    </style>
+
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
-        <div class="container">
+        <!-- <div class="container"> -->
+        <div class="container" id="searchBar">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a> 
             <small>{{ site.tagline }}</small>
+
+            <!-- Search Bar -->
+            <!-- <div class="grid" id="searchBar"> -->
+            <span style="float:right;">
+                <div id="search">
+                <form role="search" method="get" action="{{site.baseurl}}/search/">
+                 <input id="searchString" name="searchString"
+                        placeholder="Search..." type="text">
+                 <input id="searchButton" name="googleSearchName" type="submit" value="Search">
+                </form>
+                </div>
+            </span>
+            <!-- </div> -->
+            <!-- end search bar -->
+
           </h3>
         </div>
       </div>
-
       
           <div class="container" >
             <div id="archives">
-              <p align="right"">browse by <a title="The complete archive of {{ site.name }}`s Blog by category"
+              <p align="right"">browse by <a title="Sort Blog by category"
                           href="{{ site.url}}{{site.baseurl}}/categories">Category</a></p>
             </div>
             </div>
