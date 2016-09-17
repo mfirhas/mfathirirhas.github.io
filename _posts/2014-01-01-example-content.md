@@ -3,6 +3,7 @@ layout: post
 title: Example content
 categories: Content-Markdown
 comments: true
+sitemap: true
 ---
 
 This post is showing some example of how to customize content markdown.
