@@ -5,7 +5,7 @@ permalink: /search/
 sitemap: false
 ---
 
-<!-- <div id="home-search" class="home">
+<div id="home-search" class="home">
      <script>
          (function() {
              var cx = '018380072962087231429:-fwviaiwhqq';
@@ -19,19 +19,6 @@ sitemap: false
          })();
      </script>
      <gcse:search queryParameterName="searchString"></gcse:search>
- </div> -->
-
-<div id="home-search"> 
- <script>
-  (function() {
-    var cx = '018380072962087231429:-fwviaiwhqq';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
 </div>
+
+
