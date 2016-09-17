@@ -20,5 +20,4 @@ sitemap: false
      </script>
      <gcse:search queryParameterName="searchString"></gcse:search>
  </div>
-</div>
 
