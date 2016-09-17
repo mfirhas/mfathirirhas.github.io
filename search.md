@@ -19,5 +19,10 @@ sitemap: false
          })();
      </script>
      <gcse:search queryParameterName="searchString"></gcse:search>
+<<<<<<< HEAD
  </div>
+=======
+</div>
+
+>>>>>>> bab29e3475c84a3b0f4820978ba3493a4e9546d0
 
