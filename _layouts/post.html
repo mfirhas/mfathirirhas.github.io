@@ -2,19 +2,31 @@
 layout: default
 ---
 
-
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
 
+<div>
+<small>
+
+{% if page.tags %}
+<strong>Tags: </strong>
+  {% for tag in page.tags %}
+    <a href="/tags#{{ tag }}" class="tagBtn">{{ tag }}</a>
+  {% endfor %}
+{% endif %}
+</small>
+</div>
+
+
 {% include share.html %}
 </br>
 </br>
 
 <p>
-<a href="{{ site.baseurl }}/">&laquo Home</a>
+<a class="readMoreBtn readMoreBtn1" href="{{ site.baseurl }}/">&laquo Home</a>
 </p>
 <hr>
 

@@ -1,17 +1,16 @@
 ---
 layout: page
-title: Categories
-permalink: /categories/
+title: Tags
+permalink: /tags/
 sitemap: true
 ---
 
-<!-- <hr> -->
 <div>
-    {% assign categories = site.categories | sort %}
-    {% for category in categories %}
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
      <span class="site-tag">
-        <a href="#{{ category | first | slugify }}">
-                {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
+        <a href="#{{ tag | first | slugify }}">
+                {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
         </a>|
     </span>
     {% endfor %}
@@ -20,12 +19,12 @@ sitemap: true
 
 <div id="index">
 
-    {% for category in categories %}
-    <a name="{{ category[0] }}"></a><h2>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
+    {% for tag in tags %}
+    <a name="{{ tag[0] }}"></a><h2>{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </h2>
     <!-- <hr> -->
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
-    {%if post.categories contains category[0]%}
+    {%if post.tags contains tag[0]%}
 
     <!-- <ul style="list-style-type:square">
     <li> -->

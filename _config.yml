@@ -9,7 +9,7 @@ excerpt_separator:   _____
 # Setup
 title:               MFI
 tagline:             'mfathirirhas`s blog'
-description:         'This blog use template <a href="http://jekyllthemes.org/themes/lanyon" target="_blank">Lanyon</a> by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>. License from template owner <a href="https://github.com/poole/lanyon/blob/master/LICENSE.md" target="_blank">LICENSE</a>'
+description:         'Sharing things about Computer, Programming, and Technologies.'
 url:                 http://mfathirirhas.github.io  #online url
 # url:                 http://127.0.0.1:4000  #local url
 baseurl:             ''

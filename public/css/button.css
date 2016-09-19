@@ -1,0 +1,45 @@
+/*This CSS contains all button and link style*/
+
+/*tags button*/
+.tagBtn{
+  background-color: #696969;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 80%;
+    border-radius: 5%;
+  }
+    
+.tagBtn:hover, .tagBtn:active {
+    background-color: #D3D3D3;
+    text-decoration: none;
+}
+
+.readMoreBtn {
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.readMoreBtn1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.readMoreBtn1:hover {
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+}

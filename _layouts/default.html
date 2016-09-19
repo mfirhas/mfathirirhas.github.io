@@ -11,9 +11,9 @@
       input[type=text] {
         padding:5px; border:2px solid #ccc; 
         -webkit-border-radius: 5px;
-        /*border-radius: 5px;*/
-        border: 0 none;
-        border-bottom:1px solid #1e2f45;
+        border-radius: 5px;
+        /*border: 0 none;*/
+        /*border-bottom:1px solid #1e2f45;*/
         width: 150px;
         -webkit-transition: width .35s ease-in-out;
         transition: width .35s ease-in-out;
@@ -21,15 +21,17 @@
 
       input[type=text]:focus {
         /*border-color:#ffffff;*/
-        border: 0 none;
+        /*border: 0 none;*/
         width: 250px; 
       }
 
       input[type=submit] {
-        padding:5px 15px; background:#ccc; border:0 none;
+        padding:6px 14px; 
+        background:#ccc; border:0 none;
         cursor:pointer;
         -webkit-border-radius: 5px;
         border-radius: 5px; 
+        vertical-align: middle;
       }
     </style>
 
@@ -50,7 +52,7 @@
                 <form role="search" method="get" action="{{site.baseurl}}/search/">
                  <input id="searchString" name="searchString"
                         placeholder="Search..." type="text">
-                 <input id="searchButton" name="googleSearchName" type="submit" value="Search">
+                 <input class="readMoreBtn readMoreBtn1" id="searchButton" name="googleSearchName" type="submit" value="&#128270;">
                 </form>
                 </div>
             </span>
@@ -63,8 +65,7 @@
       
           <div class="container" >
             <div id="archives">
-              <p align="right"">browse by <a title="Sort Blog by category"
-                          href="{{ site.url}}{{site.baseurl}}/categories">Category</a></p>
+              <p align="right"">browse blog by <a class="tagBtn" title="Sort Blog by categories" href="{{ site.url}}{{site.baseurl}}/categories">Category</a> | <a class="tagBtn" title="Sort Blog by tags" href="{{ site.url}}{{site.baseurl}}/tags">Tag</a></p>
             </div>
             </div>
           </div>

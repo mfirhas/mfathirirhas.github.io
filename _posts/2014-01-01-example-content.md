@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 categories: Content-Markdown
+tags: [jekyll-blogging, markdown]
 comments: true
 sitemap: true
 ---
