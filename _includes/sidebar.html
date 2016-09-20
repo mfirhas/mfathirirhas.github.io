@@ -9,7 +9,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/"><i class="fa fa-home"> Home</i></a>
 
     <!-- {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -26,10 +26,11 @@
     {% endfor %} -->
 
     <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Categories</a> -->
-    <a class="sidebar-nav-item" href="{{ site.url }}/about">About</a>
-    <a class="sidebar-nav-item" href="{{ site.url }}/categories">Categories</a>
-    <a class="sidebar-nav-item" href="{{ site.url }}/tags">Tags</a>
-    <a class="sidebar-nav-item" href="https://github.com/MFathirIrhas" target="_blank">My GitHub</a>
+    <a class="sidebar-nav-item" href="{{ site.url }}/blog"><i class="fa fa-book"> Blog</i></a>
+    <a class="sidebar-nav-item2" href="{{ site.url }}/categories"><i class="fa fa-list"> Categories</i></a>
+    <a class="sidebar-nav-item2" href="{{ site.url }}/tags"><i class="fa fa-tag"> Tags</i></a>
+    <a class="sidebar-nav-item" href="https://github.com/MFathirIrhas" target="_blank"><i class="fa fa-github"> My GitHub</i></a>
+    <a class="sidebar-nav-item" href="{{ site.url }}/about"><i class="fa fa-user"> About</i></a>
     <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
   </nav>
 

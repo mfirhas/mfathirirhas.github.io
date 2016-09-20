@@ -184,9 +184,25 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
 }
+/*Child*/
+.sidebar-nav-item2 {
+  display: block;
+  padding: .5rem 3rem;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
+  text-decoration: none;
+  background-color: rgba(255,255,255,.1);
+  border-color: transparent;
+}
+
+/*Child hover*/
+.sidebar-nav-item2.active,
+a.sidebar-nav-item2:hover,
+a.sidebar-nav-item2:focus {
   text-decoration: none;
   background-color: rgba(255,255,255,.1);
   border-color: transparent;

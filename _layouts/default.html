@@ -52,7 +52,7 @@
                 <form role="search" method="get" action="{{site.baseurl}}/search/">
                  <input id="searchString" name="searchString"
                         placeholder="Search..." type="text">
-                 <input class="readMoreBtn readMoreBtn1" id="searchButton" name="googleSearchName" type="submit" value="&#128270;">
+                 <input class="readMoreBtn searchBtn" id="searchButton" name="googleSearchName" type="submit" value="Search">
                 </form>
                 </div>
             </span>
@@ -63,12 +63,14 @@
         </div>
       </div>
       
+      {% if page.url != "/" %}
           <div class="container" >
             <div id="archives">
-              <p align="right"">browse blog by <a class="tagBtn" title="Sort Blog by categories" href="{{ site.url}}{{site.baseurl}}/categories">Category</a> | <a class="tagBtn" title="Sort Blog by tags" href="{{ site.url}}{{site.baseurl}}/tags">Tag</a></p>
+              <p align="right"">browse blog by <a class="tagBtn" title="Sort Blog by categories" href="{{ site.url}}{{site.baseurl}}/categories"><i class="fa fa-list"> Category</i></a> | <a class="tagBtn" title="Sort Blog by tags" href="{{ site.url}}{{site.baseurl}}/tags"><i class="fa fa-tags"> Tag</i></a></p>
             </div>
             </div>
           </div>
+      {% endif %}
         
 
       <div class="container content">

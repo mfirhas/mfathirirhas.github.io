@@ -3,6 +3,7 @@ layout: post
 title: Example content
 categories: Content-Markdown
 tags: [jekyll-blogging, markdown]
+permalink: /blog/:categories/:year/:month/:day/:title/
 comments: true
 sitemap: true
 ---

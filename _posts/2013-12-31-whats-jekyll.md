@@ -2,6 +2,7 @@
 layout: post
 title: What's Jekyll?
 categories: Jekyll
+permalink: /blog/:categories/:year/:month/:day/:title/
 comments: false
 update_date: 2016-09-14
 sitemap: true

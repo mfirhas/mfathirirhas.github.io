@@ -14,7 +14,7 @@ layout: default
 {% if page.tags %}
 <strong>Tags: </strong>
   {% for tag in page.tags %}
-    <a href="/tags#{{ tag }}" class="tagBtn">{{ tag }}</a>
+    <a href="/tags#{{ tag }}" class="tagBtn"><i class="fa fa-tag"> {{ tag }}</i></a>
   {% endfor %}
 {% endif %}
 </small>
@@ -26,7 +26,8 @@ layout: default
 </br>
 
 <p>
-<a class="readMoreBtn readMoreBtn1" href="{{ site.baseurl }}/">&laquo Home</a>
+<a class="readMoreBtn readMoreBtn1" href="{{ site.baseurl }}/">Home</a>
+<a class="readMoreBtn readMoreBtn1" href="{{ site.baseurl }}/blog">Blog</a>
 </p>
 <hr>
 

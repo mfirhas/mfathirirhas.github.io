@@ -3,6 +3,7 @@ layout: post
 title: "Second Post"
 date: 2016-09-17 11:10:00 +0700
 categories: Random
+permalink: /blog/:categories/:year/:month/:day/:title/
 published: true
 comments: true
 sitemap: true

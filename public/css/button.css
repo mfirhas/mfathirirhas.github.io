@@ -43,3 +43,98 @@
     color: white;
     text-decoration: none;
 }
+
+.searchBtn {
+    background-color: white;
+    color: black;
+    padding: 3px 10px;
+    border: 2px solid #008CBA;
+}
+
+.searchBtn:hover {
+    background-color: lightblue;
+    color: white;
+    text-decoration: none;
+}
+
+.readBlogBtn{
+    background-color: white;
+    color: black;
+    border: 2px solid #CC0000;   
+}
+.readBlogBtn:hover{
+    background-color: #CC0000;
+    color: white;
+    text-decoration: none;   
+}
+
+.followBtnFB {
+    background-color: #3b5998;
+    color: white;
+    border: 2px solid #3b5998;
+}
+.followBtnFB:hover {
+    background-color: white;
+    color: #3b5998;
+    text-decoration: none;
+}
+
+.followBtnTwitter{
+    background-color: #4099FF;
+    color: white;
+    border: 2px solid #4099FF;   
+}
+.followBtnTwitter:hover{
+    background-color: white;
+    color: #4099FF;
+    text-decoration: none;   
+}
+
+.followBtnGithub{
+    background-color: #333333;
+    color: white;
+    border: 2px solid #333333;
+}
+.followBtnGithub:hover{
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+}
+
+.followBtnLinkedIn{
+    background-color: #0077B5;
+    color: white;
+    border: 2px solid #0077B5;   
+}
+.followBtnLinkedIn:hover{
+    background-color: white;
+    color: #0077B5;
+    text-decoration: none;   
+}
+
+.followBtnSteam{
+    background-color: #000000;
+    color: white;
+    border: 2px solid #000000;   
+}
+.followBtnSteam:hover{
+    background-color: white;
+    color: #000000;
+    text-decoration: none;   
+}
+
+.emailBtn{
+    background-color: gray;
+    color: white;
+    border: 2px solid gray;   
+}
+.emailBtn:hover{
+    background-color: white;
+    color: gray;
+    text-decoration: none;   
+}
+
+
+
+
+

@@ -9,9 +9,9 @@ sitemap: true
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
      <span class="site-tag">
-        <a href="#{{ tag | first | slugify }}">
+        <a class="tagBtn" href="#{{ tag | first | slugify }}"><i class="fa fa-tag">
                 {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
-        </a>|
+        </i></a>
     </span>
     {% endfor %}
 </div>
@@ -41,4 +41,5 @@ sitemap: true
     {% endfor %}
 </div>
 
-<a href="{{ site.baseurl }}/">Home</a>
+<a class="readMoreBtn readMoreBtn1" href="{{ site.baseurl }}/">Home</a>
+<a class="readMoreBtn readMoreBtn1" href="{{ site.baseurl }}/blog">Blog</a>
