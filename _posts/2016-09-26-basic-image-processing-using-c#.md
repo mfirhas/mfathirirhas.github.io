@@ -30,7 +30,7 @@ The code above will initialize a Bitmap object that read the image data from pat
 
 `GetPixel` method will be used to get the pixel values from certain coordinates. We will be used coordinate to get the pixel value here. For example:
 
-{% highlight c# linenos %}
+{% highlight c# %}
 Image img = Image.FromFile("d:\\lena.bmp");
 Bitmap bmp = new Bitmap(img);
 int R = new int[bmp.Width*bmp.Height];
@@ -56,7 +56,7 @@ After that we go through loop for each coordinates in image. We use counter for 
 
 Here's another example for `SetPixel`:
 
-{% highlight c# linenos %}
+{% highlight c# %}
 Bitmap bmp = new Bitmap(width, height)
 int counter = 0;
 for(int y = 0; y < bmp.Height; y++)
