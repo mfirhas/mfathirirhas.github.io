@@ -37,3 +37,11 @@ social:
     url: https://github.com/IronSummitMedia/startbootstrap
   - title: linkedin
     url: 
+
+#Gems
+markdown: kramdown
+highlighter: pygments
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge

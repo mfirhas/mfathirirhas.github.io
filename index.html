@@ -3,35 +3,6 @@ layout: default
 title: MFI - MFathirIrhas's Blog
 ---
 
-
-<script type="text/javascript">
-  function startTime(){
-    var today = new Date();
-    var y = today.getFullYear();
-    var m = today.getMonth() + 1;
-    var d = today.getDate();
-    var h = today.getHours();
-    var mnt = today.getMinutes();
-    var s = today.getSeconds();
-    mnt = checkTime(mnt);
-    s = checkTime(s);
-
-    document.getElementById('txt').innerHTML = d + "/" + m + "/" + y + "- " + h + ":" + mnt + ":" + s;
-    var t = setTimeout(startTime,500);
-  }
-
-  function checkTime(i){
-    if (i < 10) {i = "0" + i;} 
-    return i;
-  }
-  
-      // var months = ['January','February','March','April','May','June','July', 'August','September','October','November','December'];       
-      // var tomorrow = new Date();
-      // tomorrow.setTime(tomorrow.getTime() + (1000*3600*24));       
-      // document.getElementById("spanDate").innerHTML = months[tomorrow.getMonth()] + " " + tomorrow.getDate()+ ", " + tomorrow.getFullYear();
-    
-</script>
-
 <body onload="startTime()">
 <p align="right"><strong><span id="txt"></span></strong></p>
 <script type="text/javascript">
@@ -56,10 +27,24 @@ title: MFI - MFathirIrhas's Blog
   } 
 </script>
 
-<center><h1><b><i>What are you doing here?</i></b></h1></center>
+<center><h1><b><i>Welcome</i></b></h1></center>
 <img src="public/background.jpg" id="fullscreen">
 <hr>
-<center>Nothing to do here?, read my blog: <a class="readMoreBtn readBlogBtn" href="{{ site.url }}/blog">Blog &raquo</a></center>
+
+<!-- Recent Post -->
+<h2>Recent Posts</h2>
+<ul>
+{% for post in site.posts limit:5 %}
+<li>
+  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  <smal><small><small>{{post.date}}</small></small></small></h3>
+  {{post.excerpt}}
+  <hr>
+</li>
+{% endfor %}
+</ul>
+
+<center>Read all my blogs: <a class="readMoreBtn readBlogBtn" href="{{ site.url }}/blog">Blog &raquo</a></center>
+
 <hr>
 <center>
 <strong>Follow me on:</strong>
