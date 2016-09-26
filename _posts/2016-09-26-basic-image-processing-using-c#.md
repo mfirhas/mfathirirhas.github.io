@@ -1,7 +1,7 @@
 ---
 author: Muhammad Fathir Irhas
 layout: post
-title: "Basic Image Processing using C#"
+title: "Basic Image Processing using CSharp"
 date: 2016-09-26 12:05:00 +0700
 categories: Image-Processing
 tags: [c#]
