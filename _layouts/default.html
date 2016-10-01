@@ -9,9 +9,10 @@
 
     <style type="text/css">
       input[type=text] {
-        padding:5px; border:2px solid #ccc; 
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
+        padding:5px; border:2px; /*solid #ccc;*/ 
+        background-color: lightgray;
+        /*-webkit-border-radius: 5px;*/
+        /*border-radius: 5px;*/
         /*border: 0 none;*/
         /*border-bottom:1px solid #1e2f45;*/
         width: 150px;
@@ -21,19 +22,34 @@
 
       input[type=text]:focus {
         /*border-color:#ffffff;*/
-        /*border: 0 none;*/
-        width: 250px; 
+        border: 0 none;
+        width: 250px;
+        background-color: white; 
       }
 
       input[type=submit] {
-        padding:6px 14px; 
+        padding:6px 12px; 
         background:#ccc; border:0 none;
         cursor:pointer;
-        -webkit-border-radius: 5px;
-        border-radius: 5px; 
-        vertical-align: middle;
+        font-size: 12px;
+        /*-webkit-border-radius: 5px;*/
+        /*border-radius: 5px; */
+        /*height: 4px;*/
+        vertical-align: bottom;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+      }
+
+      input[type=submit]:hover{
+        color: white;
+        background-color: #337AFF;
       }
     </style>
+
+    <!-- Scroll to top -->
+    <a href="#" class="scrollBtn">
+      <span><i class="fa fa-arrow-up"></i></span>
+    </a>
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
@@ -52,7 +68,7 @@
                 <form role="search" method="get" action="{{site.baseurl}}/search/">
                  <input id="searchString" name="searchString"
                         placeholder="Search..." type="text">
-                 <input class="readMoreBtn searchBtn" id="searchButton" name="googleSearchName" type="submit" value="Search">
+                 <input id="searchButton" name="googleSearchName" type="submit" value="Search">
                 </form>
                 </div>
             </span>
@@ -98,5 +114,32 @@
       })(document);
     </script>
     <!-- <script id="dsq-count-scr" src="//mfathirirhas.disqus.com/count.js" async></script> -->
+
+    <!-- Add scroll up button -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+    'use strict';
+    
+    var myButton = $('.scrollBtn');
+    var myWindow = $(window);
+    
+    myButton.hide();
+    
+    myWindow.on('scroll', function() {
+            if ($(this).scrollTop() > 800) { //height from top to trigger
+                myButton.show();
+            }
+            else {
+                myButton.hide();
+            }
+    });
+    myButton.click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+      });
+    });
+    </script>
+
   </body>
 </html>

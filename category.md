@@ -5,6 +5,7 @@ permalink: /categories/
 sitemap: true
 ---
 
+
 <!-- <hr> -->
 <div>
     {% assign categories = site.categories | sort %}

@@ -5,6 +5,7 @@ permalink: /tags/
 sitemap: true
 ---
 
+
 <div>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
