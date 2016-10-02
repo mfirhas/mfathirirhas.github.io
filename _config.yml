@@ -10,8 +10,8 @@ excerpt_separator:   _____
 title:               MFI
 tagline:             'mfathirirhas`s blog'
 description:         'Sharing things about Computer, Programming, and Technologies.'
-# url:                 http://mfathirirhas.github.io  #online url
-url:                 http://127.0.0.1:4000  #local url
+url:                 http://mfathirirhas.github.io  #online url
+# url:                 http://127.0.0.1:4000  #local url
 baseurl:             ''
 gems:                [jekyll-paginate, jekyll-gist, jekyll-sitemap]
 paginate:            5
