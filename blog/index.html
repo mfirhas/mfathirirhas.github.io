@@ -17,14 +17,17 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}
+    <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date_to_string }}
         {% if post.author %}
             &middot;
-            By {{ post.author }}
+            <i class="fa fa-user"></i>
+            {{ post.author }}
         {% endif %}
+        &middot;
+        <i class="fa fa-list-alt"></i> {{post.categories}}
         {% if site.disqus_shortname %}
               &middot;
-              <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"><i class="fa fa-comments"></i></a>
+              <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"><i class="fa fa-comments"></i> Comments</a>
               {% if post.update_date %}
                 &middot;
                 Updated {{ post.update_date | date: site.date_format }}
