@@ -22,19 +22,19 @@ This Linux Subsystem is not a virtual machine, instead it's look and feel like n
 Before getting this feature, first make sure you get the latest Anniversary Update from Windows 10. After you installed Anniversary update, enable Windows Developer Mode in `Settings > Update & Security > For Developers`.
 
 
-<a href="{{site.url}}/assets/developermode.jpg" alt="Enabling Developer Mode">![Enabling Developer Mode]({{site.url}}/assets/developermode.jpg)</a>
+<a href="/assets/developermode.jpg" alt="Enabling Developer Mode">![Enabling Developer Mode](/assets/developermode.jpg)</a>
 <small><i>&raquo; Enabling Developer Mode</i></small>
 
 
 
 Then go to control panel, on the left side panel click Turn Windows Features On and Off, then tick `Windows Subsystem for Linux (beta)`
 
-<a href="{{site.url}}/assets/enablelinuxbash.jpg">![enabling Linux Subsystem]({{site.url}}/assets/enablelinuxbash.jpg)</a>
+<a href="/assets/enablelinuxbash.jpg">![enabling Linux Subsystem](/assets/enablelinuxbash.jpg)</a>
 <small><i>&raquo; Enabling Linux Bash Feature</i></small>
 
 This need you to restart and after restart search on cortana "bash", bash shell for linux subsystem will appear. Click it and it will automatically download and install depedencies for linux environment inside Windows Environment. This will take some times so make sure you internet connection is well connected because this action will be executed by downloading the depedencies from Windows Store. You won't find them on Windows Store by manually visiting the Store, so just wait this action will complete. after that, this will prompt you to insert UNIX username and password. Follow all instruction and after all done. Close the command line, and reopen it. Now once you search it on cortana, it will appears with Linux Ubuntu Icon,
 
-<a href="{{site.url}}/assets/bashshellicon.jpg">![Linux Icon]({{site.url}}/assets/bashshellicon.jpg)</a>
+<a href="/assets/bashshellicon.jpg">![Linux Icon](/assets/bashshellicon.jpg)</a>
 <small><i>&raquo; Linux Bash Shell Icon</i></small>
 
 Open it then you can do every Linux user did using their Bash in terminal. Keep in mind that there might be some limitations for further extension and configs for the features in linux that cannot be executed in this Linux Subsystem Bash Shell. But every basic scripting you did in linux command line like `sudo apt-get update, install, or remove` will work, including installing linux software using this bash shell will works fine. You don't need to install dual boot OS if you only to use bash shell to install some linux software that need linux to run with. 
