@@ -26,13 +26,13 @@ including free Visual Studio Community(IDE) with its xamarin framework in it, vi
 
 # Features?
 .Net Core provide some features:
-- CoreFX: .Net Core Foundational libraries
-- CoreCLR: Runtime for CLR languages(for future development ofc).
-- CLI: .Net Command Line tools
-- Roslyn: .Net Compiler platform
-- ASP.Net Core: Web dev framework
-- Console Apps: Command Line Apps.
-- UWP: Universal Windows Platform Development.
+    - CoreFX: .Net Core Foundational libraries
+    - CoreCLR: Runtime for CLR languages(for future development ofc).
+    - CLI: .Net Command Line tools
+    - Roslyn: .Net Compiler platform
+    - ASP.Net Core: Web dev framework
+    - Console Apps: Command Line Apps.
+    - UWP: Universal Windows Platform Development.
 
 # How?
 The current version is 1.0.0-preview2-1-003177 and still in preview. So please keep in mind that there will be many changes in the future for its RTM/released version.
