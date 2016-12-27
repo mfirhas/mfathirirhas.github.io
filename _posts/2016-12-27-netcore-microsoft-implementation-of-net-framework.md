@@ -26,17 +26,19 @@ including free Visual Studio Community(IDE) with its xamarin framework in it, vi
 
 # Features?
 .Net Core provide some features:
-    - CoreFX: .Net Core Foundational libraries
-    - CoreCLR: Runtime for CLR languages(for future development ofc).
-    - CLI: .Net Command Line tools
-    - Roslyn: .Net Compiler platform
-    - ASP.Net Core: Web dev framework
-    - Console Apps: Command Line Apps.
-    - UWP: Universal Windows Platform Development.
+
+- CoreFX: .Net Core Foundational libraries
+- CoreCLR: Runtime for CLR languages(for future development ofc).
+- CLI: .Net Command Line tools
+- Roslyn: .Net Compiler platform
+- ASP.Net Core: Web dev framework
+- Console Apps: Command Line Apps.
+- UWP: Universal Windows Platform Development.
 
 # How?
 The current version is 1.0.0-preview2-1-003177 and still in preview. So please keep in mind that there will be many changes in the future for its RTM/released version.
 For current version do the following to get things work:
+
 - In order to do .Net mainly using C# and ASP.Net PL in cross-paltform download .Net Core in [.NetCore](https://www.microsoft.com/net/core/platform) and install.
 - If you use visual studio, you can download it directly from nuget.
 - Because the purpose of this .Net Core is its cross-platform, hence we implement it using code editor and command line. For this purpose you can use any code editor(because ofcourse).
@@ -45,6 +47,7 @@ For current version do the following to get things work:
 - type `dotnet run` to run the console apps.
 
 Other option to create ASP.Net Core is to install [Yeoman](http://yeoman.io/) ASP.Net generator by typing:
+
 - `npm install -g generator-aspnet` (make sure you have installed nodejs)     
 - then type `yo aspnet`     
 - There are many options available from this menu including Console Apps, so you can create console apps using Yeaoman.
