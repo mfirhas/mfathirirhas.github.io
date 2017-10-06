@@ -9,7 +9,7 @@ published: true
 comments: true
 sitemap: true
 ---
->Webpage performance is one of important keys for its accessibility. Slow response webpage will be more likely to be abandon by users immediately. Hence, why you need to optimize it as much as you can. Here's tips and tricks I found based on website.grader.com.
+>Webpage performance is one of important keys for its accessibility. Slow response webpage will be more likely to be abandoned by users immediately. Hence, why you need to optimize it as much as you can. Here's tips and tricks I found based on website.grader.com.
 _____
 
 # Optimize Webpage Performances
