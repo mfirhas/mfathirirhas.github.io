@@ -28,9 +28,10 @@ title: Home
         {% if site.disqus_shortname %}
               &middot;
               <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"><i class="fa fa-comments"></i> Comments</a>
-              {% if post.update_date %}
+              {% if post.updated %}
                 &middot;
-                Updated {{ post.update_date | date: site.date_format }}
+                <i class="fa fa-level-up"></i>
+                Updated {{ post.updated | date: site.date_format }}
               {% endif %}
         {% endif %}
     </span>

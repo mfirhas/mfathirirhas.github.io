@@ -10,6 +10,7 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">
+    <i class="fa fa-calendar"></i>
     {{ page.date | date_to_string }}
     {% if page.author %}
       &middot;
@@ -18,8 +19,11 @@ layout: default
     {% endif %}
     &middot;
     <i class="fa fa-list-alt"></i> {{page.categories}}
-    &middot;
-    Updated {{page.updated}}
+    {% if page.updated %}
+      &middot;
+      <i class="fa fa-level-up"></i>
+      Updated {{page.updated}}
+    {% endif %}
   </span>
   {{ content }}
 </div>
