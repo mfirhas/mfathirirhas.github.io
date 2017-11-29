@@ -28,3 +28,7 @@ gem "pygments.rb"
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
+
+
+# CUSTOM
+gem "yajl-ruby", "1.3.1"
