@@ -1,0 +1,58 @@
+/* styles for resume page */
+
+.resume-font-summary {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 16px;
+}
+
+.resume-font-content {
+    font-family: 'PT Sans', sans-serif;  
+    font-size: 17px;
+    padding: 20px 30px 10px 50px;
+}
+
+.resume-font-content2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    padding: 20px 30px 10px 30px;
+}
+
+/* name and description */
+/* Wide card with share menu button */
+.demo-card-wide.mdl-card {
+    /* width: 512px; */
+    width: 720px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../img/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.demo-card-wide > .supporting-text-wide {
+    width: 100%;
+}
+
+.supporting-text-sub-title {
+    float: right;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.sub-section-top-border {
+    border-top: 1px solid rgba(24, 39, 255, 0.76);
+}
+
+.demo-list-icon {
+    width: 100%;
+}
+
+/* progress bar */
+#progress-bar-size {
+    width:40%;
+    height:40%;
+    margin-left: 40px;
+}
