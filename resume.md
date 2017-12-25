@@ -66,6 +66,7 @@ title: Resume
       <!-- --- -->
       <li>Practicum Asistant <small><i class="fa fa-at" aria-hidden="true"></i> Informatics Lab, Telkom University</small></li>
       <span><small><i>2013 - 2015</i>
+      <br>
       In College, I participate as Practicum Assistant in spare time for Algorithm and Data Structure subject. 
       <br>
       <i>Responsibilities:</i>
@@ -95,7 +96,19 @@ title: Resume
     <h2 class="mdl-card__title-text supporting-text-sub-title">Skills</h2>
   </div>
   <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border progress-bar-size">
-  
+
+  <div class="skillset">
+    {% for skill in site.data.skills %}
+      <div class="item">
+        <h3 class="level-title">{{ skill.name }}</h3>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
   </div>
 
   <!-- Organizations and Events -->
@@ -105,11 +118,11 @@ title: Resume
   <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border">
   </div>
 
-  <div class="mdl-card__menu">
+  <!-- <div class="mdl-card__menu">
     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
       <i class="material-icons">share</i>
     </button>
-  </div>
+  </div> -->
 
 </div>
 
