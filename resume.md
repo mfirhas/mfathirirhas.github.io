@@ -115,7 +115,49 @@ title: Resume
   <div class="mdl-card__supporting-text mdl-card__actions mdl-card--border">
     <h2 class="mdl-card__title-text supporting-text-sub-title">Organizations and Events</h2>
   </div>
-  <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border">
+  <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border resume-font-content2">
+    <ul>
+      <li>Informatics Lab</li>
+        <span><small>Main Laboratory for practicum in Informatics Faculty.</small></span>
+      <li>Unit Seni Budaya Minangkabau</li>
+        <span><small>UKM relating to Minangkabau cultures.</small></span>
+      <li>Software Engineering Lab</li>
+        <span><small>Study and research group. Holding some lab activities including tutoring, mentoring, sharing knowledge, movies, game, game development community indie game developer enthusiast and other activities.</small></span>
+      <li>Hackathon MDK 2.0</li>
+        <span><small>Participate in the second event of Hackathon MDK in Telkom office, Bandung. The event was held around Indonesia in certain cities. Developed mobile app(android) and simple web(php) service for flood victims sending request and volunteers to send their help. App Status: <i> Unpublished & discontinued</i> </small></span>
+      <li>Microsoft Student Partner(2015)</li>
+        <span><small>Workshop and sharing things related to Microsoft technologies to nearest friend and community.</small></span>
+    </ul>
+  </div>
+
+  <!-- Other Activities -->
+  <div class="mdl-card__supporting-text mdl-card__actions mdl-card--border">
+    <h2 class="mdl-card__title-text supporting-text-sub-title">Other Activities</h2>
+  </div>
+  <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border resume-font-content3">
+    <p>What I did in my spare time:</p>
+    <ul>
+      <li>Tinkering with programming languages, tools, libraries, frameworks, including the new ones.</li>
+      <li>Solving programming problems in Hackerrank, OpenKattis, and sometime wasting time solving Euler problems.</li>
+      <li>Exploring Github, opening issues, exploring new and cool libraries, stalking people in github, sometime experimenting with some open project(vscode editor, editor theme, friend's final project, reacts examples, etc).</li>
+      <li>Blogging</li>
+    </ul>
+  </div>
+
+  <!-- Other Interests -->
+  <div class="mdl-card__supporting-text mdl-card__actions mdl-card--border">
+    <h2 class="mdl-card__title-text supporting-text-sub-title">Other Interests</h2>
+  </div>
+  <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border resume-font-content3">
+    <p>What topics I mostly think of it:</p>
+    <ul>
+      <li>Science and Technology</li>
+      <li>Image Processing and Machine Learning</li>
+      <li>Movies and sometime Anime</li>
+      <li>Religion</li>
+      <li>Sport, mostly footbal</li>
+      <li>Video Game</li>
+    </ul>
   </div>
 
   <!-- <div class="mdl-card__menu">
