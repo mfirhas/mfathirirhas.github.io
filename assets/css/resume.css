@@ -51,8 +51,16 @@
     border-top: 1px solid rgba(24, 39, 255, 0.76);
 }
 
+.sub-section-bottom-border {
+    border-bottom: 10px solid rgba(24, 39, 255, 0.76);
+}
+
 .demo-list-icon {
     width: 100%;
+}
+
+.mdl-button {
+    text-transform: lowercase;
 }
 
 /* progress bar */

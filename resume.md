@@ -18,11 +18,20 @@ title: Resume
 
   <!-- contacts -->
   <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      Get Started
+    <a href="mailto:fathir.irhas@outlook.com" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-envelope" aria-hidden="true"></i> fathir.irhas@outlook.com
     </a>
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      contact me
+    <a href="http://www.linkedin.com/in/mfathirirhas/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i> mfathirirhas
+    </a>
+    <a href="http://github.com/mfathirirhas" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-github" aria-hidden="true"></i> mfathirirhas
+    </a>
+    <a href="http://mfathirirhas.github.io/blog/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-file-text" aria-hidden="true"></i> Blog
+    </a>
+    <a href="http://mfathirirhas.github.io/portfolio/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-code" aria-hidden="true"></i> Portfolio
     </a>
   </div>
 
@@ -124,7 +133,7 @@ title: Resume
       <li>Software Engineering Lab</li>
         <span><small>Study and research group. Holding some lab activities including tutoring, mentoring, sharing knowledge, movies, game, game development community indie game developer enthusiast and other activities.</small></span>
       <li>Hackathon MDK 2.0</li>
-        <span><small>Participate in the second event of Hackathon MDK in Telkom office, Bandung. The event was held around Indonesia in certain cities. Developed mobile app(android) and simple web(php) service for flood victims sending request and volunteers to send their help. App Status: <i> Unpublished & discontinued</i> </small></span>
+        <span><small>Participate in the second event of Hackathon MDK in Telkom office, Bandung. The event was held around Indonesia in certain cities. Developed mobile app(android) and simple web service(php) for flood victims sending request and volunteers to send their help. App Status: <i> Unpublished & discontinued</i> </small></span>
       <li>Microsoft Student Partner(2015)</li>
         <span><small>Workshop and sharing things related to Microsoft technologies to nearest friend and community.</small></span>
     </ul>
@@ -158,6 +167,30 @@ title: Resume
       <li>Sport, mostly footbal</li>
       <li>Video Game</li>
     </ul>
+  </div>
+
+  <!-- contacts bottom -->
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="mailto:fathir.irhas@outlook.com" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-envelope" aria-hidden="true"></i> fathir.irhas@outlook.com
+    </a>
+    <a href="http://www.linkedin.com/in/mfathirirhas/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i> mfathirirhas
+    </a>
+    <a href="http://github.com/mfathirirhas" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-github" aria-hidden="true"></i> mfathirirhas
+    </a>
+    <a href="http://mfathirirhas.github.io/blog/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-file-text" aria-hidden="true"></i> Blog
+    </a>
+    <a href="http://mfathirirhas.github.io/portfolio/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <i class="fa fa-code" aria-hidden="true"></i> Portfolio
+    </a>
+  </div>
+
+  <!-- last -->
+  <div class="mdl-card__actions mdl-card--border resume-font-content3 sub-section-bottom-border">
+    <p align="center" style="margin:10px 40px 20px 40px;"><i>~Thank you for the consideration and I would appreciate the opportunity for interview~</i></p>
   </div>
 
   <!-- <div class="mdl-card__menu">
