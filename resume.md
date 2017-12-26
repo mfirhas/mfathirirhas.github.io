@@ -12,8 +12,7 @@ title: Resume
 
   <!-- summary -->
   <div class="mdl-card__supporting-text supporting-text-wide resume-font-summary">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Mauris sagittis pellentesque lacus eleifend lacinia...
+    <p align="center"><small>Highly passionate and enthusiast Software Engineer mostly in backend development, some frontend, and some devops. Love to tinkering with alot of stuffs from programming languages to frameworks and any other tools.</small></p>
   </div>
 
   <!-- contacts -->
@@ -33,6 +32,22 @@ title: Resume
     <a href="http://mfathirirhas.github.io/portfolio/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
       <i class="fa fa-code" aria-hidden="true"></i> Portfolio
     </a>
+  </div>
+
+  <!-- About me -->
+  <div class="mdl-card__supporting-text mdl-card__actions mdl-card--border">
+    <h2 class="mdl-card__title-text supporting-text-sub-title">About Me</h2>
+  </div>
+  <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border resume-font-content">
+  <small>
+    <ul>
+      <li>Name <span style="padding-left:57px;">:</span> Muhammad Fathir Irhas(Fathir)</li>
+      <li>Place & birth <span style="padding-left:11px;">:</span> Duri, 12-January-1995</li>
+      <li>Address <span style="padding-left:44px;">:</span> Jakarta-Tangerang</li>
+      <li>Email <span style="padding-left:58px;">:</span> fathir.irhas@outlook.com</li>
+      <li>Phone Number <span style="padding-left:2px;">:</span> +62 81224441284</li>
+    </ul>
+  </small>
   </div>
 
   <!-- experiences -->
