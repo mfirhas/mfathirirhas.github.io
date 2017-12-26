@@ -12,7 +12,7 @@ title: Resume
 
   <!-- summary -->
   <div class="mdl-card__supporting-text supporting-text-wide resume-font-summary">
-    <p align="center"><small>Highly passionate and enthusiast Software Engineer mostly in backend development, some frontend, and some devops. Love to tinkering with alot of stuffs from programming languages to frameworks and any other tools.</small></p>
+    <p align="center"><small>Highly passionate and enthusiast Software Engineer mostly in backend development, some frontend, and a little devops things. Love to tinkering with alot of stuffs from programming languages to frameworks and any other tools. Always attempt to write good, refactored and clean code through automated workflow and deployment.</small></p>
   </div>
 
   <!-- contacts -->
@@ -45,7 +45,7 @@ title: Resume
       <li>Place & birth <span style="padding-left:11px;">:</span> Duri, 12-January-1995</li>
       <li>Address <span style="padding-left:44px;">:</span> Jakarta-Tangerang</li>
       <li>Email <span style="padding-left:58px;">:</span> fathir.irhas@outlook.com</li>
-      <li>Phone Number <span style="padding-left:2px;">:</span> +62 81224441284</li>
+      <li>Phone/WA <span style="padding-left:29px;">:</span> +62 81224441284</li>
     </ul>
   </small>
   </div>
@@ -82,7 +82,7 @@ title: Resume
       <br>
       </small></span>
       <!-- --- -->
-      <li>Web Developer <small><i class="fa fa-at" aria-hidden="true"></i> Chevron</small></li>
+      <li>Web Developer Intern <small><i class="fa fa-at" aria-hidden="true"></i> Chevron</small></li>
       <span><small><i>2015</i><br>
       Internship Project UTC-POD Team in IT Departement. Creating a simple web app using ASP.Net(C#) for helping the Field Engineer in interacting with Wells especially in surveying the Wells. 
       <br><br>
