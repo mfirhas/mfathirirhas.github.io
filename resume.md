@@ -26,10 +26,10 @@ title: Resume
     <a href="http://github.com/mfathirirhas" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
       <i class="fa fa-github" aria-hidden="true"></i> mfathirirhas
     </a>
-    <a href="http://mfathirirhas.github.io/blog/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    <a href="{{ site.url }}/blog" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
       <i class="fa fa-file-text" aria-hidden="true"></i> Blog
     </a>
-    <a href="http://mfathirirhas.github.io/portfolio/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    <a href="{{ site.url }}/portfolio" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
       <i class="fa fa-code" aria-hidden="true"></i> Portfolio
     </a>
   </div>
@@ -195,10 +195,10 @@ title: Resume
     <a href="http://github.com/mfathirirhas" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
       <i class="fa fa-github" aria-hidden="true"></i> mfathirirhas
     </a>
-    <a href="http://mfathirirhas.github.io/blog/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    <a href="{{ site.url }}/blog" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
       <i class="fa fa-file-text" aria-hidden="true"></i> Blog
     </a>
-    <a href="http://mfathirirhas.github.io/portfolio/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    <a href="{{ site.url }}/portfolio" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
       <i class="fa fa-code" aria-hidden="true"></i> Portfolio
     </a>
   </div>
