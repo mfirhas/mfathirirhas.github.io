@@ -1,0 +1,164 @@
+/* styles for resume page */
+
+.resume-font-summary {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 16px;
+}
+
+.resume-font-content {
+    font-family: 'PT Sans', sans-serif;  
+    font-size: 17px;
+    padding: 20px 30px 10px 50px;
+}
+
+.resume-font-content2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    padding: 20px 30px 10px 30px;
+}
+.resume-font-content3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    padding: 20px 30px 10px 30px;
+}
+
+/* name and description */
+/* Wide card with share menu button */
+.demo-card-wide.mdl-card {
+    /* width: 512px; */
+    width: 720px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../img/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.demo-card-wide > .supporting-text-wide {
+    width: 100%;
+}
+
+.supporting-text-sub-title {
+    float: right;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.sub-section-top-border {
+    border-top: 1px solid rgba(24, 39, 255, 0.76);
+}
+
+.sub-section-bottom-border {
+    border-bottom: 10px solid rgba(24, 39, 255, 0.76);
+}
+
+.demo-list-icon {
+    width: 100%;
+}
+
+.mdl-button {
+    text-transform: lowercase;
+}
+
+@media (max-width: 860px) {
+    .demo-card-wide.mdl-card {
+        width: 600px;
+    }
+}
+
+@media (max-width: 620px) {
+    .demo-card-wide.mdl-card {
+        width: 560px;
+    }
+}
+
+@media (max-width: 607px) {
+    .demo-card-wide.mdl-card {
+        width: 460px;
+    }
+}
+
+@media (max-width: 520px) {
+    .demo-card-wide.mdl-card {
+        width: 420px;
+    }
+}
+
+@media (max-width: 440px) {
+    .demo-card-wide.mdl-card {
+        width: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .demo-card-wide.mdl-card {
+        width: 360px;
+    }
+}
+
+@media (max-width: 360px) {
+    .demo-card-wide.mdl-card {
+        width: 330px;
+    }
+}
+
+@media (max-width: 320px) {
+    .demo-card-wide.mdl-card {
+        width: 290px;
+    }
+}
+
+/* progress bar */
+#progress-bar-size {
+    width:40%;
+    height:40%;
+    margin-left: 40px;
+}
+
+/* skills */
+.skillset {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skillset .item {
+    margin-bottom: 25px;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.skillset .level-title {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    /* padding-left: 50px; */
+}
+.skillset .level-bar {
+    height: 12px;
+    background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+    height: 12px;
+    background: #7bc2d3;
+}
+
+@media (min-width: 992px) {
+    .skillset .level-title {
+        display: inline-block;
+        float: left;
+        width: 30%;
+        margin-bottom: 0;
+    }
+    .skillset .level-bar {
+        display: inline-block;
+        width: 70%;
+        float: left;
+        position: relative;
+        top: 5px;
+    }
+}
+
+/* end-skills */

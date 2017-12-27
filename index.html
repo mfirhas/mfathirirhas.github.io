@@ -3,34 +3,14 @@ layout: default
 title: MFI - MFathirIrhas's Blog
 ---
 
-<body onload="startTime()">
+<body onload="dateTime()">
 <p align="right"><strong><span id="txt"></span></strong></p>
-<script type="text/javascript">
-  function startTime(){
-    var today = new Date();
-    var y = today.getFullYear();
-    var m = today.getMonth() + 1;
-    var d = today.getDate();
-    var h = today.getHours();
-    var mnt = today.getMinutes();
-    var s = today.getSeconds();
-    mnt = checkTime(mnt);
-    s = checkTime(s);
-
-    document.getElementById('txt').innerHTML = d + " / " + m + " / " + y + " - " + h + ":" + mnt + ":" + s;
-    var t = setTimeout(startTime,500);
-  }
-
-  function checkTime(i){
-    if (i < 10) {i = "0" + i;} 
-    return i;
-  } 
-</script>
 
 <center><h1><b><i>Welcome</i></b></h1></center>
-<!-- <img src="public/background.jpg" id="fullscreen"> -->
-<center><img src="public/wutsup.gif" id="fullscreen"></center>
-<!-- <center><img class="img-circle" src="public/profil.jpg"></center> -->
+<!-- <img src="assets/img/background.jpg" id="fullscreen"> -->
+<!-- <center><img src="assets/img/wutsup.gif" id="fullscreen"></center> -->
+<!-- <center><img class="img-circle" src="assets/img/profil.jpg"></center> -->
+<center><img class="img-circle" src="assets/img/profilpicture.jpg"></center>
 
 <center>Muhammad Fathir Irhas &middot; 
   Software Engineer &middot;

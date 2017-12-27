@@ -10,8 +10,8 @@ excerpt_separator:   _____
 title:               MFI
 tagline:             'mfathirirhas`s blog'
 description:         'Sharing things about Computer, Programming, and Technologies.'
-url:                 http://mfathirirhas.github.io  #online url
-# url:                 http://127.0.0.1:4000  #local url
+# url:                 http://mfathirirhas.github.io  #online url
+url:                 http://127.0.0.1:4000  #local url
 baseurl:             ''
 gems:                [jekyll-paginate, jekyll-gist, jekyll-sitemap]
 paginate:            5
@@ -45,3 +45,20 @@ highlighter: rouge
 # kramdown:
 #   input: GFM
 #   syntax_highlighter: rouge
+
+
+# Resume contents
+resume_name     : Muhammad Fathir Irhas
+resume_summary  : asdasdsad
+resume_contacts :
+  - linkedin: https://www.linkedin.com/in/mfathirirhas/
+  - email   : fathir.irhas@outlook.com
+resume_education:
+  - highschool  : SMAN 1 Bukittinggi
+  - highschool_year: 2009-2012 
+  - college     : Telkom University
+  - college_major: S1 Informatics Engineering(S.Kom)
+  - college_year: 2012-2016
+resume_experience:
+  - role_emporia: Software Engineer
+  - company_emporia: Emporia Digital 
