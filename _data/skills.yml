@@ -1,0 +1,27 @@
+- skill:
+  name: C#
+  level: 90%
+- skill:
+  name: PHP
+  level: 90%
+- skill:
+  name: Java(Spring)
+  level: 70%
+- skill:
+  name: HTML5 & CSS
+  level: 88%
+- skill:
+  name: Javascript
+  level: 76%
+- skill:
+  name: Git
+  level: 94%
+- skill:
+  name: MySQL
+  level: 85%
+- skill:
+  name: Back-end dev
+  level: 86%
+- skill:
+  name: Front-end dev
+  level: 59% 
