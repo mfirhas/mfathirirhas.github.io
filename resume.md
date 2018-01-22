@@ -12,7 +12,8 @@ title: Resume
 
   <!-- summary -->
   <div class="mdl-card__supporting-text supporting-text-wide resume-font-summary">
-    <p align="center"><small>Highly passionate and enthusiast Software Engineer mostly in backend development, some frontend, and a little devops things. Love to tinkering with alot of stuffs from programming languages to frameworks and any other tools. Always attempt to write good, refactored and clean code through automated workflow and deployment.</small></p>
+    <p align="center"><small>Highly passionate and enthusiast Software Engineer mostly in backend development and some frontend stuffs. Always learning to improve skills and willing to share. Able to work independently and in team. Write good, testable, and version controlled code, also refactor them if needed.</small></p>
+    <p align="center"><small><small><b>Tech stacks</b>: C#(ASP.Net), PHP(Codeigniter, Laravel), Java, HTML/CSS, Javascript, Git, MySQL. (Willing to learn new things  if needed)</small></small></p>
   </div>
 
   <!-- contacts -->
