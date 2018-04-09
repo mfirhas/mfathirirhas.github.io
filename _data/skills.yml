@@ -1,12 +1,12 @@
 - skill:
+  name: Go
+  level: 80%
+- skill:
   name: C#
   level: 80%
 - skill:
   name: PHP
   level: 90%
-- skill:
-  name: Java
-  level: 80%
 - skill:
   name: HTML5 & CSS
   level: 88%
@@ -24,4 +24,4 @@
   level: 86%
 - skill:
   name: Front-end dev
-  level: 70% 
+  level: 60% 

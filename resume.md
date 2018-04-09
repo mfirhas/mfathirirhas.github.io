@@ -12,8 +12,8 @@ title: Resume
 
   <!-- summary -->
   <div class="mdl-card__supporting-text supporting-text-wide resume-font-summary">
-    <p align="center"><small>Highly passionate and enthusiast Software Engineer mostly in backend development and some frontend stuffs. Always learning to improve skills and willing to share. Able to work independently and in team. Write good, testable, and version controlled code, also refactor them if needed.</small></p>
-    <p align="center"><small><small><b>Tech stacks</b>: C#(ASP.Net), PHP(Codeigniter, Laravel), Java, HTML/CSS, Javascript, Git, MySQL. (Willing to learn new things  if needed)</small></small></p>
+    <p align="center"><small>Highly passionate and enthusiast Software Engineer mostly in backend development and little frontend stuffs. Always learning to improve skillsand willing to share. Able to work independently and in team. Write good and testable code and refactor them if needed. Have experienceswriting web services using REST APIs to be consumed by web and mobile.</small></p>
+    <p align="center"><small><small><b>Tech stacks</b>: Go, C#(ASP.Net), PHP(Codeigniter, Laravel), HTML/CSS, Javascript, Git, MySQL.</small></small></p>
   </div>
 
   <!-- contacts -->
@@ -57,11 +57,20 @@ title: Resume
   </div>
   <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border resume-font-content2">
     <ul>
+      <li>Technical Consultant <small><i class="fa fa-at" aria-hidden="true"></i> Anabatic Technologies</small></li>
+      <span><small><i>Jan 2018 - Present</i><br>
+      <ul>
+        <li>Provide and deliver solutions to the clients</li>
+        <li>Monitor client’s app running</li>
+        <li>Support product development and customization</li>
+      </ul> 
+      </small></span>
+      <!-- --- -->
       <li>Software Engineer <small><i class="fa fa-at" aria-hidden="true"></i> Emporia Digital Raya, Anabatic Tech.</small></li>
       <span><small><i>Nov 2016 - Present</i><br>
       Anabatic is one of Indonesia's leading IT company found in 2002. It provides IT solutions in form of many kinds from software, hardware, servers, implementations, maintenance, human resources, etc. Its main clients are mostly banks and some public sectors. Anabatic has a alot of business handled by its subsidiaries. One of its new subsidiary provide ecommerce service is Emporia Digital Raya. 
       <br><br>
-      Emporia Digital Raya became partner with Alibaba since its first establishment. Through partnership with Alibaba, Emporia became Alibaba's hand to connects SME in Indonesia to global export market through subscribtion to Alibaba <a target="_blank" href="http://ggs.alibaba.com/index.html">Global Gold Supplier</a>(GGS) membership. This membership will grant you access to your customers/buyers globally worldwide. By joining GGS You will also get informations, data and statistics about possible interest in certain region and demands measurement per your customers/buyers. 
+      Emporia Digital Raya became partner with Alibaba after its establishment. Through partnership with Alibaba, Emporia became Alibaba's hand to connects SME in Indonesia to global export market through subscribtion to Alibaba <a target="_blank" href="http://ggs.alibaba.com/index.html">Global Gold Supplier</a>(GGS) membership. This membership will grant you access to your customers/buyers globally worldwide. By joining GGS You will also get informations, data and statistics about possible interest in certain region and demands measurement per your customers/buyers. 
       <br><br>
       Emporia provide ecommerce platform in form of web app and services. Our first product <a target="_blank" href="https://eksporaja.com">eksporaja.com</a> became interface for Indonesia SME to subscribe Alibaba GGS membership. Our service will connect the GGS subscriber(SME) to Alibaba premium membership GGS through <a target="_blank" href="https://eksporaja.com/alibaba-ggs">eksporaja GGS registration</a>.
       <br><br>

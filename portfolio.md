@@ -50,10 +50,6 @@ title: Portfolio
 <span><small>Some programming questions and tests solved online from OpenKattis, Hackerrank, and some Euler Projects.</small></span><br>
 <a class="tagBtn" target="_blank" href="https://github.com/mfathirirhas/ProgrammingChallenges"><i class="fa fa-code" aria-hidden="true"></i> Source</a><br><br>
 
-<li>mfathirirhas.github.io</li>
-<span><small>This very own site using static site framework Jekyll and hosted on Github.</small></span><br>
-<a class="tagBtn" target="_blank" href="https://github.com/mfathirirhas/mfathirirhas.github.io"><i class="fa fa-code" aria-hidden="true"></i> Source</a><br><br>
-
 <li>eksporaja.com</li>
 <span><small>First project while working in Emporia Digital Raya written in Java using Spring MVC Maven Project. A site for SME in Indonesia to Subscribe to Alibaba <a target="_blank" href="http://ggs.alibaba.com/index.html">Global Gold Supplier</a>(GGS) membership.</small></span><br>
 <a class="tagBtn" target="_blank" href="https://eksporaja.com/alibaba-ggs"><i class="fa fa-link" aria-hidden="true"></i> Link</a><br><br>
