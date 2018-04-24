@@ -4,6 +4,10 @@ title: Portfolio
 ---
 
 <ul>
+<li>TokoIjah</li>
+<span><small>Implementing simple CRUD API services and CSV export/import using Go.</small></span><br>
+<a class="tagBtn" target="_blank" href="https://github.com/mfathirirhas/TokoIjah"><i class="fa fa-code" aria-hidden="true"></i> Source</a><br><br>
+
 <li>ImagePro</li>
 <span><small>Mini Image Processing using C# with native windows form template and GDI+ Windows API. 
     Features include:
@@ -55,7 +59,7 @@ title: Portfolio
 <a class="tagBtn" target="_blank" href="https://eksporaja.com/alibaba-ggs"><i class="fa fa-link" aria-hidden="true"></i> Link</a><br><br>
 
 <li>Infodaily(Udaily)</li>
-<span><small>An Android and iOS app using PHP(Codeigniter) web services as backend and wordpress as back-office interface. Another project from Emporia to provide daily needs for buying foods online and paying another apartment bills online. You can order food online through nearest merchants registered in your clusters. You can also pay bills through this app(water, electricity, IPL, etc). Besides, there's also places directory to show you places/cities/areas and any unique spots in there(store,ATM machine, schools, etc). Status: <i>In Progress</i></small></span>
+<span><small>An Android and iOS app using PHP web services as backend and wordpress as back-office interface. Another project from Emporia to provide daily needs for buying foods online and paying another apartment bills online. You can order food online through nearest merchants registered in your clusters. You can also pay bills through this app(water, electricity, IPL, etc). Besides, there's also places directory to show you places/cities/areas and any unique spots in there(store,ATM machine, schools, etc). Status: <i>In Progress</i></small></span>
 
 </ul>
 
