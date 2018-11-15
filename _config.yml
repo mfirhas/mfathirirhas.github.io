@@ -40,7 +40,8 @@ social:
 
 #Gems
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
+# highlighter: pygments ## unsupported on github pages
 # markdown: kramdown
 # kramdown:
 #   input: GFM
