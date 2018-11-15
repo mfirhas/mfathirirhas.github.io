@@ -40,7 +40,7 @@ social:
 
 #Gems
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 # markdown: kramdown
 # kramdown:
 #   input: GFM
