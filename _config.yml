@@ -13,7 +13,7 @@ description:         'Sharing things about Computer, Programming, and Technologi
 url:                 http://mfathirirhas.github.io  #online url
 # url:                 http://127.0.0.1:4000  #local url
 baseurl:             ''
-gems:                [jekyll-paginate, jekyll-gist, jekyll-sitemap]
+plugins:             [jekyll-paginate, jekyll-gist, jekyll-sitemap]
 paginate:            5
 paginate_path:       "blog/page:num"
 disqus_shortname:    mfathirirhas
