@@ -1,0 +1,50 @@
+- exp:
+  position: Software Engineer
+  company: Tokopedia
+  date: Juni 2018 - Present
+  desc: "I am in Fintech Team working on some services related to Saldo Tokopedia, Tokocash, and other related Fintech Products in Tokopedia."
+  tasks:
+    - Participate in daily meeting
+    - Participate in sprint planning
+    - Add, change and fix some features related to Fintech Products in Tokopedia
+    - Refactoring codebase
+    - Add some unit tests
+- exp:
+  position: Technical Consultant
+  company: Anabatic Technologies
+  date: Jan 2018 - Juni 2018
+  desc: "Working in client site as consultant providing it services"
+  tasks:
+    - Provide and deliver solutions to the clients
+    - Monitor client’s app running
+    - Support product development and customization
+- exp:
+  position: Software Engineer
+  company: Emporia Digital Raya
+  date: Nov 2016 - December 2017
+  desc: "Emporia Digital Raya was one of Anabatic's subsidiary providing solutions and services for SMEs in Indonesia through partnering itself with Alibaba. It provided subscriptions to Alibaba Global Gold Supplier for SMEs and also provide international market informations for exporting."
+  tasks:
+    - Agile Scrum - Follow Scrum process of development and deliver progress every 2 weeks(sometime 1 week).
+    - Front-end development - Develop and Fix some UI elements for Eksporaja. Create layout responsiveness for mobile view.
+    - Main site maintenance - Add, fix, and delete some features or web contents/layouts in <a target="_blank" href="http://emporiadigital.com/id">Emporia</a> main site
+    - Back-end development - Develop and fix some web services(APIs) for eksporaja.com using Spring Java and InfoDaily(udaily) using PHP
+    - Versioning and Deployment - Keep track on development progress through git and note every version and related features. Deploy codebase and database at anytime needed for testing.
+- exp:
+  position: Web Developer Intern
+  company: PT. Chevron Pacific Indonesia
+  date: 2015
+  desc: "Internship Project UTC-POD Team in IT Departement."
+  tasks:
+    - Creating a simple web app using ASP.Net(C#) for helping the Field Engineer in interacting with Wells especially in surveying the Wells.
+    - Create documentation for the project.
+- exp:
+  position: Practicum Asistant
+  company: Informatics Lab, Telkom University
+  date: 2013 - 2015
+  desc: "In College, I participate as Practicum Assistant in spare time for Algorithm and Data Structure subject."
+  tasks:
+    - Held and leaded the Practicum Class.
+    - Helped organize and control the practicum.
+    - Taught and mentor students.
+    - Helped students in debugging the problems they found in their code.
+    - Evaluate works and results of every students at the end of practicum.    
