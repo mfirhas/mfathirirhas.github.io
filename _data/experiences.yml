@@ -2,13 +2,21 @@
   position: Software Engineer
   company: Tokopedia
   date: Juni 2018 - Present
-  desc: "I am in Fintech Team working on some services related to Saldo Tokopedia, Tokocash, and other related Fintech Products in Tokopedia."
+  desc: "I am in Fintech Team working on some services related to Saldo Tokopedia, Tokocash, internal tools and some investment products."
   tasks:
-    - Participate in daily meeting
-    - Participate in sprint planning
-    - Add, change and fix some features related to Fintech Products in Tokopedia
-    - Refactoring codebase
-    - Add some unit tests
+    - Working in Fintech Team
+    - Contribute in Saldo Tokopedia, Tokocash(before shutdown), Internal Tools, and some investment products
+    - Create and develop system and services that do CRUD in either Postgre, MySQL, and/or Redis(cache)
+    - Create and develop system and services that communicate each other synchronously using REST, gRPC, and GQL as API gateway
+    - Create and develop system and services that communicate each other asynchronously using PubSub NSQ(MQ) and/or using cron
+    - Create and develop some frontend element of the product(Saldo Tokopedia)
+    - Add, Fix, Change, and Maintain services and features in Fintech products
+    - Provide solutions and improvement to products features and services
+    - Monitor services running(server log, datadog, prometheus/grafana)
+    - Execute tickets coming from users through ops team relating to issues in products
+    - Participate in daily and sprint
+    - Participate in team sharing session every 2 weeks
+    - Collaborate with other team to provide interface and integration to/from Fintech’s products/services and provide solutions
 - exp:
   position: Technical Consultant
   company: Anabatic Technologies

@@ -2,26 +2,29 @@
   name: Go
   level: 90%
 - skill:
-  name: C#
-  level: 80%
-- skill:
-  name: PHP
+  name: SQL
   level: 90%
 - skill:
-  name: HTML5 & CSS
-  level: 88%
-- skill:
-  name: Javascript
-  level: 76%
-- skill:
-  name: Git
-  level: 94%
-- skill:
-  name: MySQL
-  level: 85%
-- skill:
-  name: Back-end dev
+  name: Redis
   level: 86%
 - skill:
-  name: Front-end dev
-  level: 60% 
+  name: REST, gRPC
+  level: 90%
+- skill:
+  name: GQL, NSQ
+  level: 79%
+- skill:
+  name: Git
+  level: 98%
+- skill:
+  name: Javascript
+  level: 80%
+- skill:
+  name: HTML5
+  level: 82%
+- skill:
+  name: C#/Java/Python
+  level: 70%
+- skill:
+  name: CSS
+  level: 50% 

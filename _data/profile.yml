@@ -1,6 +1,8 @@
 name: "Muhammad Fathir Irhas"
 nick: "Fathir"
-summary: "Highly passionate and enthusiast Software Engineer mostly in backend development and little frontend stuffs. Always learning to improve skills and willing to share. Able to work autonomously and in team. Write good, testable code and refactor them if needed. Have experiences writing web services, APIs, and microservices system."
-stacks: "Go, C#(ASP.Net), PHP(Codeigniter, Laravel), HTML/CSS, Javascript, Git, MySQL, PostgreSQL."
-born: "Duri, 12-January-1995"
+summary: "Highly passionate and enthusiast Software Engineer mostly in backend development and little frontend stuffs. Always learning to improve skills
+and willing to share. Able to work independently and in team. Write good and testable code and refactor them if needed. Provide solutions and
+improvement if needed. Have experiences developing scalable system and services using Go , Postgres, MySQL, Redis, NSQ, and other stacks. Design and implement solutions and improvement to services. Maintain and Improve features."
+stacks: "GOLANG, JS, POSTGRE, MYSQL, REDIS, NSQ, API, REST, GRPC, GQL, TEST"
+born: "Duri, 12-January"
 address: "Jakarta - Tangerang"

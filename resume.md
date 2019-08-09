@@ -37,7 +37,7 @@ title: Resume
 
   <!-- About me -->
   <div class="mdl-card__supporting-text mdl-card__actions mdl-card--border">
-    <h2 class="mdl-card__title-text supporting-text-sub-title">About Me</h2>
+    <h2 class="mdl-card__title-text supporting-text-sub-title">Info</h2>
   </div>
   <div class="mdl-card__supporting-text mdl-card__actions sub-section-top-border resume-font-content">
     <ul>
@@ -45,6 +45,7 @@ title: Resume
       <li><i class="fa fa-calendar" aria-hidden="true"></i> {{ site.data.profile.born }} </li>
       <li><i class="fa fa-home" aria-hidden="true"></i> {{ site.data.profile.address }}</li>
       <li><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.data.contacts.email }}</li>
+      <li><i class="fa fa-envelope-o" aria-hidden="true"></i> {{ site.data.contacts.email2 }}</li>
       <li><i class="fa fa-whatsapp" aria-hidden="true"></i> {{ site.data.contacts.phone }} </li>
     </ul>
   </div>
