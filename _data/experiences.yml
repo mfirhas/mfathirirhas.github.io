@@ -4,19 +4,21 @@
   date: Juni 2018 - Present
   desc: "I am in Fintech Team working on some services related to Saldo Tokopedia, Tokocash, internal tools and some investment products."
   tasks:
-    - Working in Fintech Team
-    - Contribute in Saldo Tokopedia, Tokocash(before shutdown), Internal Tools, and some investment products
-    - Create and develop system and services that do CRUD in either Postgre, MySQL, and/or Redis(cache)
-    - Create and develop system and services that communicate each other synchronously using REST, gRPC, and GQL as API gateway
-    - Create and develop system and services that communicate each other asynchronously using PubSub NSQ(MQ) and/or using cron
-    - Create and develop some frontend element of the product(Saldo Tokopedia)
-    - Add, Fix, Change, and Maintain services and features in Fintech products
-    - Provide solutions and improvement to products features and services
-    - Monitor services running(server log, datadog, prometheus/grafana)
-    - Execute tickets coming from users through ops team relating to issues in products
-    - Participate in daily and sprint
-    - Participate in team sharing session every 2 weeks
-    - Collaborate with other team to provide interface and integration to/from Fintech’s products/services and provide solutions
+    - Use Golang, Javascript, PostgreSQL, MySQL, Redis, NSQ, gRPC, and GQL.
+    - Contribute in Saldo Tokopedia, Internal Tools, and some investment products.
+    - Contribute in Saldo Tokopedia Saldo Penghasilan separation.
+    - Revamp Saldo Tokopedia legacy front end.
+    - Rewrite Saldo Tokopedia legacy codebase to implement interface based development and creating testable code.
+    - Implement unit tests.
+    - Develop services doing CRUD in PostgreSQL and MySQL as persistence and Redis as cache.
+    - Develop APIs in REST, gRPC, and GQL.
+    - Develop message queue using NSQ.
+    - Develop cron for task scheduling.
+    - Create EGold(Tokopedia Emas) metrics monitoring in datadog.
+    - Monitor services from datadog, prometheus, and server log.
+    - Collaborate with other team to provide interface and integration to/from Fintech’s products/services.
+    - Migrate some legacy internal API from Perl to Golang.
+    - Execute tickets coming from users through ops team relating to issues in products.
 - exp:
   position: Technical Consultant
   company: Anabatic Technologies
@@ -39,20 +41,9 @@
     - Versioning and Deployment - Keep track on development progress through git and note every version and related features. Deploy codebase and database at anytime needed for testing.
 - exp:
   position: Web Developer Intern
-  company: PT. Chevron Pacific Indonesia
+  company: PT. Chevron Pacific Indonesia, Duri, Riau
   date: 2015
   desc: "Internship Project UTC-POD Team in IT Departement."
   tasks:
     - Creating a simple web app using ASP.Net(C#) for helping the Field Engineer in interacting with Wells especially in surveying the Wells.
     - Create documentation for the project.
-- exp:
-  position: Practicum Asistant
-  company: Informatics Lab, Telkom University
-  date: 2013 - 2015
-  desc: "In College, I participate as Practicum Assistant in spare time for Algorithm and Data Structure subject."
-  tasks:
-    - Held and leaded the Practicum Class.
-    - Helped organize and control the practicum.
-    - Taught and mentor students.
-    - Helped students in debugging the problems they found in their code.
-    - Evaluate works and results of every students at the end of practicum.    
