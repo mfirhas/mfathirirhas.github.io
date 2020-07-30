@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Muhammad Fathir Irhas" />
+	
+	
+	
+	<title>Git Workflow ｜ ~/mfathirirhas</title>
+	
+    
+    
+    <meta name="description" content=" Git will change the way you develop program/code. With Git, every code, progresses, features, you wrote will be recorded in something called commit. Working in team will require some workflow for you to optimize the use of this version control. Here&amp;rsquo;s one many ways you can use git.
+" />
+    
+
+    
+    
+    <meta name="keywords" content="mfathirirhas" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://mfathirirhas.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.iocss/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Posts</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+            <li>
+                <a href="/resume/">Resume</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://mfathirirhas.github.io">
+                    <span>~/mfathirirhas</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">Tech and Stuffs.</p>
+            <div class="my_socials">
+                
+                
+                <a href="https://github.com/mfathirirhas" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="https://linkedin.com/in/mfathirirhas" title="linkedin" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                
+                
+                
+                <a href="https://twitter.com/mfathirirhas" title="twitter" target="_blank"><i class="ri-twitter-fill"></i></a>
+                
+                
+                <a href="https://mfathirirhas.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/2017-09-30-git-workflow/'>Git Workflow</a></h2>
+                        <span class="date">2017.09.30</span>
+                    </div>
+                    <div class="post_content markdown"><blockquote>
+<p>Git will change the way you develop program/code. With Git, every code, progresses, features, you wrote will be recorded in something called commit. Working in team will require some workflow for you to optimize the use of this version control. Here&rsquo;s one many ways you can use git.</p>
+</blockquote>
+<h1 id="git-workflow">Git Workflow</h1>
+<p>How to work with Git for versioning and team works.</p>
+<p><em>Read this before continue:</em> <a href="https://mfathirirhas.github.io/blog/programming/2017/09/30/how-to-git/">How to Git</a> , <a href="https://mfathirirhas.github.io/blog/programming/2017/09/30/git-branching-model/">Branching Model</a></p>
+<p>Article recommended to read for insights:</p>
+<ul>
+<li><a href="http://nvie.com/posts/a-successful-git-branching-model/">Successful Git Branching Model</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows">Git Workflow Comparison</a></li>
+<li><a href="http://moveelo.com/blog/git-best-practices-for-teams">Git Best Practice for Small Team</a></li>
+<li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">Git Cheat Sheet</a></li>
+</ul>
+<h2 id="sync-up">Sync Up</h2>
+<p>All developers must sync their local with remote. Make sure our local working directory synced up with remote server. This is for equalize the version for each developer. <strong>So, all developers have same codebase and same git history</strong>. There are 2 main branch in remote: <em>master</em> and <em>dev.</em></p>
+<ul>
+<li>
+<p>First, clone remote repo using:
+git clone &lt;remote_url&gt;</p>
+</li>
+<li>
+<p>Change directory to that cloned folder:
+cd <path></p>
+</li>
+<li>
+<p>Continue working in <em>dev</em> branch by checking it out from cloned remote branch:
+git checkout dev</p>
+</li>
+</ul>
+<p>Now you’ve been set up and synced up with remote server.</p>
+<h2 id="working-on-dev-branch">Working on Dev Branch</h2>
+<p>Best practice git workflow suggest that you have to work on separate branch from your master branch. As our master branch is set up as <strong>Production Branch(branch for production release),</strong> so we will be working on <em>dev</em> branch. So checkout to your <em>dev</em> branch:</p>
+<pre><code>git checkout dev
+</code></pre>
+<h2 id="adding-featuresfunctionalities">Adding Features/Functionalities</h2>
+<p>Best practice git workflow suggest that everytime you want to add new feature(e.g login), or new functionalities, you have to work it on separate branch that branched off from <em>dev</em> branch.</p>
+<p>Create new branch from <em>dev</em> everytime you want to work on new features using:</p>
+<pre><code>git checkout -b f-&lt;featurename&gt; dev
+</code></pre>
+<p><em>naming convention: for every feature add prefix</em> <code>*f-*</code></p>
+<h2 id="merge-feature-into-dev">Merge Feature into Dev</h2>
+<p>After finishing working on feature in feature branch, add all files, commit and merge it back to dev by using:</p>
+<ul>
+<li>
+<p>Add all files we edit:
+git add -A</p>
+</li>
+<li>
+<p>Commit them:
+git commit -m &ldquo;commit message&rdquo;</p>
+</li>
+<li>
+<p>Checkout to <em>dev</em> branch:
+git checkout dev</p>
+</li>
+<li>
+<p>Merge feature branch:
+git merge &ndash;no-ff f-<featurename></p>
+</li>
+<li>
+<p>After finished merging the features to <em>dev</em> branch. That feature branch is no longer needed, so we remove that unnecessary branch from our local branch list by:
+git branch -d f-<featurename></p>
+</li>
+</ul>
+<h2 id="bug-fixing">Bug Fixing</h2>
+<p>Same with adding new features, everytime we found issues/bugs, fix them in new branch. Using the same way as creating feature branch, we create fixes branch using:</p>
+<pre><code>git checkout -b fix-&lt;fixname(e.g UDI-33_gabisaregistrasi)&gt; dev
+</code></pre>
+<p>Add, commit and merge back the fixes into <em>dev</em> branch using the same way as merging feature branch.</p>
+<pre><code>git add -A
+git commit -m &quot;commit message&quot;
+git checkout dev
+git merge --no-ff fix-&lt;fixname&gt;
+git branch -d fix-&lt;fixname&gt;
+</code></pre>
+<h2 id="push-to-dev-remote-server">Push to Dev Remote Server</h2>
+<p>After you’ve made sure your local dev works succeed with no bugs, push to remote server <em>dev</em> branch. While still in <em>dev</em> branch:</p>
+<pre><code>git push origin dev:dev
+</code></pre>
+<p>we push our local <em>dev</em> branch to remote <em>dev</em> branch.</p>
+<h2 id="pull-remote-dev-branch">Pull Remote Dev Branch</h2>
+<p>After other developers finishing their works on dev and pushing it to remote dev. Update your local dev by pulling updates from them by using:</p>
+<pre><code>git checkout dev
+git pull origin dev
+</code></pre>
+<h2 id="merge-dev-to-master">Merge Dev to Master</h2>
+<p>After finishing some features and ready for production release, merge dev into <em>Master</em> branch and tag it with version iteration(e.g v1.0.2). Commit all edits in <em>dev</em> branch and do:</p>
+<pre><code>git checkout master
+git merge --no-ff dev
+</code></pre>
+<p>After merge finished, push our updated master(production release) to remote server by using:</p>
+<pre><code>git push origin master:master
+</code></pre>
+<h2 id="deploying-to-server">Deploying to Server</h2>
+<p><strong>Deploy to Dev Server</strong></p>
+<ul>
+<li>
+<p>Checkout <em>dev</em> branch:
+git checkout dev</p>
+</li>
+<li>
+<p>Make sure no changes uncommitted:
+git status</p>
+</li>
+</ul>
+<p>make sure the status is clean:</p>
+<pre><code>On branch dev
+nothing to commit, working tree clean
+</code></pre>
+<ul>
+<li>If all is clean. Use codebase from <em>dev</em> branch for development server.</li>
+</ul>
+<p><strong>Deploy to Prod Server</strong></p>
+<ul>
+<li>
+<p>Merge all changes from <em>dev</em> branch. While still in <em>dev</em> branch:
+git checkout master
+git merge &ndash;no-ff dev</p>
+</li>
+<li>
+<p>Tag that merge commit with version number
+git tag -a v0.1 -m &ldquo;tag message&rdquo; master</p>
+</li>
+<li>
+<p>Push to remote master along with the tag.
+git push &ndash;follow-tags origin master:master</p>
+</li>
+</ul>
+<h2 id="sync-local-master-branch">Sync Local Master Branch</h2>
+<p>After one developer/release manager push to master as production release. Every other developers must update their local master branch by pulling it from remote master:</p>
+<pre><code>git checkout master
+git pull origin master
+</code></pre></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/git/">git</a>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/version-control/">version-control</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Theme by VarKai,</a>
+        <a href="http://www.gohugo.io/">Powered by Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span><script>document.write(new Date().getFullYear())</script> &copy; Muhammad Fathir Irhas</span>
+    </div>
+</footer>
+    <script src="https://mfathirirhas.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://mfathirirhas.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://mfathirirhas.github.io/js/fancybox.min.js"></script>
+<script src="https://mfathirirhas.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>
