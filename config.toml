@@ -1,4 +1,5 @@
-baseURL = "http://localhost:1313/"
+#baseURL = "http://localhost:1313/"
+baseURL = "https://mfathirirhas.github.io"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "~/mfathirirhas"                  
