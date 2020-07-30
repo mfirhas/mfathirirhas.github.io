@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Muhammad Fathir Irhas" />
+	
+	
+	
+	<title>Optimize Webpage Performance ｜ ~/mfathirirhas</title>
+	
+    
+    
+    <meta name="description" content=" Webpage performance is one of important keys for its accessibility. Slow response webpage will be more likely to be abandoned by users immediately. Hence, why you need to optimize it as much as you can. Here&amp;rsquo;s tips and tricks I found based on website.grader.com.
+" />
+    
+
+    
+    
+    <meta name="keywords" content="mfathirirhas" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://mfathirirhas.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.iocss/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Posts</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+            <li>
+                <a href="/resume/">Resume</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://mfathirirhas.github.io">
+                    <span>~/mfathirirhas</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">Tech and Stuffs.</p>
+            <div class="my_socials">
+                
+                
+                <a href="https://github.com/mfathirirhas" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="https://linkedin.com/in/mfathirirhas" title="linkedin" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                
+                
+                
+                <a href="https://twitter.com/mfathirirhas" title="twitter" target="_blank"><i class="ri-twitter-fill"></i></a>
+                
+                
+                <a href="https://mfathirirhas.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/2017-10-01-optimize-webpage-performances/'>Optimize Webpage Performance</a></h2>
+                        <span class="date">2017.10.01</span>
+                    </div>
+                    <div class="post_content markdown"><blockquote>
+<p>Webpage performance is one of important keys for its accessibility. Slow response webpage will be more likely to be abandoned by users immediately. Hence, why you need to optimize it as much as you can. Here&rsquo;s tips and tricks I found based on website.grader.com.</p>
+</blockquote>
+<h1 id="optimize-webpage-performances">Optimize Webpage Performances</h1>
+<p>from: <a href="https://website.grader.com">Website Grader</a></p>
+<h2 id="reducing-page-size"><strong>Reducing Page Size</strong></h2>
+<ul>
+<li>
+<p>Resize and/or Compress image content in web page</p>
+<ul>
+<li>Image size should same or smaller than size of container.</li>
+<li>Use lossless compression method to avoid losing quality of image</li>
+<li>Create hyperlink for image if user download/share it.</li>
+</ul>
+</li>
+<li>
+<p>Image Sprite and Image Scaling
+Use image sprite by combining multiple images to avoid multiple requests. By combining multiple images, this will show only part needed to show to reduce.
+Use image scaling to proportionally size the image needed.</p>
+</li>
+<li>
+<p>Remove Unnecessary links in CSS</p>
+<ul>
+<li>Remove unnecessary fonts CDN in CSS to avoid it loads unnecessary fonts/libraries/plugins.</li>
+<li>Remove unnecessary links in any files.</li>
+</ul>
+</li>
+<li>
+<p>Minify Resources</p>
+<ul>
+<li>Removes unnecessary code, variables, comments, etc.</li>
+<li>Removes unnecessary JS libraries or plugins being used(usually included by templates/framework)</li>
+<li>Minify or compress CSS, JS, and HTML.(compress js: <a href="https://jscompress.com/">https://jscompress.com/</a>)</li>
+</ul>
+</li>
+<li>
+<p>Use CDN(Content Delivery Network)</p>
+</li>
+</ul>
+<p>source: <a href="https://blog.hubspot.com/marketing/reducing-page-size">https://blog.hubspot.com/marketing/reducing-page-size</a></p>
+<h2 id="reduce-http-requests"><strong>Reduce HTTP Requests</strong></h2>
+<ul>
+<li>
+<p>See how many requests requested everytime page loads. How to Check: Developer tools(F12) → Network Panel.</p>
+</li>
+<li>
+<p>Remove unnecessary links or image</p>
+</li>
+<li>
+<p>Make JavaScript asynchronous
+Everytime browser loads page, it load every resources(js) one by one. Make it asyncs.
+How to:</p>
+<ul>
+<li><a href="https://css-tricks.com/thinking-async/">https://css-tricks.com/thinking-async/</a></li>
+<li><a href="https://vwo.com/blog/asynchronous-code/">https://vwo.com/blog/asynchronous-code/</a></li>
+<li><a href="https://www.fastly.com/blog/steve-souders-on-high-performance-web-components/">https://www.fastly.com/blog/steve-souders-on-high-performance-web-components/</a></li>
+</ul>
+</li>
+<li>
+<p>Combine multiple CSS files together.
+Combine some CSS files to reduce multiple requests load.</p>
+</li>
+<li>
+<p>Use Nginx Webserver.
+When userbase is so high that can cause high number of requests, this can slow the response because of the limit of os server, cpu, ram, and also other factor contribute in response time from server. By using Nginx, it solves C10K problem using its single threaded architecture. User’s requests are dedicated to each worker process tied to single thread. So, when loads are so high, there’ll be non-blocking process accepting and responsing user’s response.</p>
+</li>
+</ul>
+<p>source:</p>
+<p><a href="https://blog.hubspot.com/marketing/reduce-http-requests">https://blog.hubspot.com/marketing/reduce-http-requests</a>
+<a href="https://code.tutsplus.com/id/tutorials/apache-vs-nginx-pros-cons-for-wordpress--cms-28540">https://code.tutsplus.com/id/tutorials/apache-vs-nginx-pros-cons-for-wordpress--cms-28540</a>
+<a href="https://www.upguard.com/articles/apache-vs-nginx">https://www.upguard.com/articles/apache-vs-nginx</a></p>
+<h2 id="optimizing-page-speed"><strong>Optimizing Page Speed</strong></h2>
+<ul>
+<li>
+<p>Correctly place any render-blocking javascript in the header.
+Javascript that block the render process of page should be eliminated in the header. Mostly javascript files that are not needed for page load process. Use <a href="https://developers.google.com/speed/pagespeed/insights/?hl=id">Google Page Insight</a> to detect render-blocking javascript.</p>
+</li>
+<li>
+<p>Browser Chaching
+Setup serverside caching time.
+<a href="https://www.liquidweb.com/kb/how-to-configure-apache-2-to-control-browser-caching/">https://www.liquidweb.com/kb/how-to-configure-apache-2-to-control-browser-caching/</a></p>
+</li>
+<li>
+<p>Compress Response
+Compress responses sent from server side to reduce size and fasten response speed.
+<a href="https://gtmetrix.com/enable-gzip-compression.html">https://gtmetrix.com/enable-gzip-compression.html</a>
+<a href="https://examples.javacodegeeks.com/enterprise-java/tomcat/enable-gzip-compression-apache-tomcat/">https://examples.javacodegeeks.com/enterprise-java/tomcat/enable-gzip-compression-apache-tomcat/</a>
+<a href="https://tomcat.apache.org/tomcat-6.0-doc/config/http.html">https://tomcat.apache.org/tomcat-6.0-doc/config/http.html</a></p>
+</li>
+<li>
+<p>Efficiently order stylesheets and scripts.</p>
+<ul>
+<li>Put the most priority css and javascript loads at top of page and least priority in bottom of page</li>
+<li>Use <code>Async</code> and <code>Defer</code> in Javascript load:
+<ul>
+<li><code>Async</code> to loads javascript simultaneously with other page loads. Consider thinking other JS that need some dependencies from other JS files.
+example: <code>&lt;script src=&quot;demo_async.js&quot; async&gt;&lt;/script&gt;</code></li>
+<li><code>Defer</code> to delay javascript load for certain time after other page component loaded.
+example: <code>&lt;script src=&quot;demo_defer.js&quot; defer&gt;&lt;/script&gt;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Use In-Memory database for Caching</p>
+<ul>
+<li>In-memory caching caches the data into memory using some data structure(list,hash,etc) and can persist them in disk(persistence) if needed. Speed up page loading because every data requested frequently will be resided in memory(RAM).</li>
+<li>Options: <a href="https://redis.io/topics/introduction">Redis</a>, <a href="https://memcached.org/about">Memcached</a>, <a href="http://cassandra.apache.org/">Cassandra</a>, etc.</li>
+</ul>
+</li>
+</ul>
+<p>source:</p>
+<ul>
+<li><a href="https://blog.hubspot.com/marketing/how-to-reduce-your-websites-page-speed">https://blog.hubspot.com/marketing/how-to-reduce-your-websites-page-speed</a></li>
+<li><a href="https://www.objectrocket.com/blog/how-to/top-5-redis-use-cases">https://www.objectrocket.com/blog/how-to/top-5-redis-use-cases</a></li>
+<li><a href="https://blog.hubspot.com/marketing/remove-javascript-rendering-block">https://blog.hubspot.com/marketing/remove-javascript-rendering-block</a></li>
+</ul>
+<h2 id="seo"><strong>SEO</strong></h2>
+<ul>
+<li>Use Sitemap
+<ul>
+<li><a href="https://www.michael-bull.com/blog/2016/05/22/generating-sitemaps-with-spring-boot-and-sitemapgen4j">https://www.michael-bull.com/blog/2016/05/22/generating-sitemaps-with-spring-boot-and-sitemapgen4j</a></li>
+<li><a href="https://pramodeandc.wordpress.com/2013/03/04/create-sitemap-in-spring-mvc-seo/">https://pramodeandc.wordpress.com/2013/03/04/create-sitemap-in-spring-mvc-seo/</a></li>
+<li><a href="https://blog.hubspot.com/marketing/build-sitemap-website">https://blog.hubspot.com/marketing/build-sitemap-website</a></li>
+</ul>
+</li>
+</ul></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/web/">web</a>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/optimization/">optimization</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Theme by VarKai,</a>
+        <a href="http://www.gohugo.io/">Powered by Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span><script>document.write(new Date().getFullYear())</script> &copy; Muhammad Fathir Irhas</span>
+    </div>
+</footer>
+    <script src="https://mfathirirhas.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://mfathirirhas.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://mfathirirhas.github.io/js/fancybox.min.js"></script>
+<script src="https://mfathirirhas.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>

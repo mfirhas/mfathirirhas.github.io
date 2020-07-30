@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Muhammad Fathir Irhas" />
+	
+	
+	
+	<title>Linux Bash Shell on Windows 10 ｜ ~/mfathirirhas</title>
+	
+    
+    
+    <meta name="description" content=" Windows 10 with anniversary update now included Linux Subsystem that allow you to do scripting using Bash Shell. It&amp;rsquo;s a full Ubuntu-based Based Shell that can run Linux Software on Windows.
+" />
+    
+
+    
+    
+    <meta name="keywords" content="mfathirirhas" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://mfathirirhas.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.iocss/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Posts</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+            <li>
+                <a href="/resume/">Resume</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://mfathirirhas.github.io">
+                    <span>~/mfathirirhas</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">Tech and Stuffs.</p>
+            <div class="my_socials">
+                
+                
+                <a href="https://github.com/mfathirirhas" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="https://linkedin.com/in/mfathirirhas" title="linkedin" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                
+                
+                
+                <a href="https://twitter.com/mfathirirhas" title="twitter" target="_blank"><i class="ri-twitter-fill"></i></a>
+                
+                
+                <a href="https://mfathirirhas.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/2016-10-04-linux-bash-bash-on-windows/'>Linux Bash Shell on Windows 10</a></h2>
+                        <span class="date">2016.10.04</span>
+                    </div>
+                    <div class="post_content markdown"><blockquote>
+<p>Windows 10 with anniversary update now included Linux Subsystem that allow you to do scripting using Bash Shell. It&rsquo;s a full Ubuntu-based Based Shell that can run Linux Software on Windows.</p>
+</blockquote>
+<p>Microsoft has successfull creating a Linux subsystem within Windows environment that allow us to do Linux&rsquo;s things using bash shell, including installing linux&rsquo;s software. This project was based on An Microsoft&rsquo;s Abandoned Project Astoria to run Android apps on Windows.</p>
+<p>This Linux Subsystem is not a virtual machine, instead it&rsquo;s look and feel like native linux bash shell. It allows you to do things Linux terminal can do. Every linux bash shell command can be executed in this linux subsystem bash shell in Windows.</p>
+<p>Before getting this feature, first make sure you get the latest Anniversary Update from Windows 10. After you installed Anniversary update, enable Windows Developer Mode in <code>Settings &gt; Update &amp; Security &gt; For Developers</code>.</p>
+<p><a href="/assets/contents/developermode.JPG" alt="Enabling Developer Mode"><img src="/assets/contents/developermode.JPG" alt="Enabling Developer Mode"></a>
+<small><i>» Enabling Developer Mode</i></small></p>
+<p>Then go to control panel, on the left side panel click Turn Windows Features On and Off, then tick <code>Windows Subsystem for Linux (beta)</code></p>
+<p><a href="/assets/contents/enablelinuxbash.JPG"><img src="/assets/contents/enablelinuxbash.JPG" alt="enabling Linux Subsystem"></a>
+<small><i>» Enabling Linux Bash Feature</i></small></p>
+<p>This need you to restart and after restart search on cortana &ldquo;bash&rdquo;, bash shell for linux subsystem will appear. Click it and it will automatically download and install depedencies for linux environment inside Windows Environment. This will take some times so make sure you internet connection is well connected because this action will be executed by downloading the depedencies from Windows Store. You won&rsquo;t find them on Windows Store by manually visiting the Store, so just wait this action will complete. after that, this will prompt you to insert UNIX username and password. Follow all instruction and after all done. Close the command line, and reopen it. Now once you search it on cortana, it will appears with Linux Ubuntu Icon,</p>
+<p><a href="/assets/contents/bashshellicon.JPG"><img src="/assets/contents/bashshellicon.JPG" alt="Linux Icon"></a>
+<small><i>» Linux Bash Shell Icon</i></small></p>
+<p>Open it then you can do every Linux user did using their Bash in terminal. Keep in mind that there might be some limitations for further extension and configs for the features in linux that cannot be executed in this Linux Subsystem Bash Shell. But every basic scripting you did in linux command line like <code>sudo apt-get update, install, or remove</code> will work, including installing linux software using this bash shell will works fine. You don&rsquo;t need to install dual boot OS if you only to use bash shell to install some linux software that need linux to run with.</p>
+<p>This linux subsystem has its own folder inside <code>C:\Users\Fathir\AppData\Local\lxss</code>. You can access Windows folders and files from within this linux subsystem environment by accessing <code>cd /mnt/&lt;your-windows-partition&gt;</code>, for example you want to access <code>D:</code> from bash you can do <code>cd /mnt/d</code> and everything inside that path will look like the same with the ones inside your Windows folders and files.</p>
+<p>This is just a new way from Microsoft to avoid you to install dual-boot OS by installing the most you need to do in Linux environment that&rsquo;s bash shell including linux tools chain. This version is still in beta, which means there&rsquo;s might be some further development and updates, so keep updated. Have fun doing linux things inside Windows 10.</p></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/linux/">linux</a>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/ubuntu/">ubuntu</a>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/windows/">windows</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Theme by VarKai,</a>
+        <a href="http://www.gohugo.io/">Powered by Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span><script>document.write(new Date().getFullYear())</script> &copy; Muhammad Fathir Irhas</span>
+    </div>
+</footer>
+    <script src="https://mfathirirhas.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://mfathirirhas.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://mfathirirhas.github.io/js/fancybox.min.js"></script>
+<script src="https://mfathirirhas.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>

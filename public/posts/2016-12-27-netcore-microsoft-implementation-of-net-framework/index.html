@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Muhammad Fathir Irhas" />
+	
+	
+	
+	<title>.Net Core: Microsoft Open Source and Cross-platform Implementation of .Net Framework ｜ ~/mfathirirhas</title>
+	
+    
+    
+    <meta name="description" content=" Microsoft now get to open source world by implementing cross-platform ability for its .Net Framework. This new cross-palform and open source framework is called .Net Core.
+" />
+    
+
+    
+    
+    <meta name="keywords" content="mfathirirhas" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://mfathirirhas.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.iocss/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://mfathirirhas.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Posts</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+            <li>
+                <a href="/resume/">Resume</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://mfathirirhas.github.io">
+                    <span>~/mfathirirhas</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">Tech and Stuffs.</p>
+            <div class="my_socials">
+                
+                
+                <a href="https://github.com/mfathirirhas" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="https://linkedin.com/in/mfathirirhas" title="linkedin" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                
+                
+                
+                <a href="https://twitter.com/mfathirirhas" title="twitter" target="_blank"><i class="ri-twitter-fill"></i></a>
+                
+                
+                <a href="https://mfathirirhas.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/2016-12-27-netcore-microsoft-implementation-of-net-framework/'>.Net Core: Microsoft Open Source and Cross-platform Implementation of .Net Framework</a></h2>
+                        <span class="date">2016.12.27</span>
+                    </div>
+                    <div class="post_content markdown"><blockquote>
+<p>Microsoft now get to open source world by implementing cross-platform ability for its .Net Framework. This new cross-palform and open source framework is called .Net Core.</p>
+</blockquote>
+<h1 id="what-is-net-core">What is .Net Core</h1>
+<p>.Net Core is a free, cross-platform and open source of the similar .Net framework. .Net Core has the CoreCLR which is the complete cross platform implementation of CLR.
+To make it compatible each other, there are shared libraries and APIs that will make .Net apps work in many platform and OS. Also the .Net Core CLI which is an execution entry point for operating systems
+and provides developers many services like compilation, package managers, etc.</p>
+<h1 id="why">Why?</h1>
+<p>I think that Microsoft admit its deficiency in open source and cross platform world and realize that many developers love open source. Other reason is that some survey said that some programmers/developers hate standarization and establishment toward certain tools for
+certain platform because it will curb them toward it. Microsoft actually has some open-source and cross-platform implementation in some fields like mobile development using xamarin which is very promising
+but it still cannot defeat the popularity of Android Studio and other JS hardcore cross-platform framework. Some other thing telling the reason why Microsoft jump into open-source world is because the myth
+telling us that people still hate how Microsoft cage everything in them, patent them, standarize them, controll them, and make developers pay in the end. However, Microsoft in the end make every tools it has free,
+including free Visual Studio Community(IDE) with its xamarin framework in it, visual studio code(cross-platform editor), and now make their .Net Framework open for community and it will be a great jump into open-source world till its RTM version.</p>
+<h1 id="features">Features?</h1>
+<p>.Net Core provide some features:</p>
+<ul>
+<li>CoreFX: .Net Core Foundational libraries</li>
+<li>CoreCLR: Runtime for CLR languages(for future development ofc).</li>
+<li>CLI: .Net Command Line tools</li>
+<li>Roslyn: .Net Compiler platform</li>
+<li>ASP.Net Core: Web dev framework</li>
+<li>Console Apps: Command Line Apps.</li>
+<li>UWP: Universal Windows Platform Development.</li>
+</ul>
+<h1 id="how">How?</h1>
+<p>The current version is 1.0.0-preview2-1-003177 and still in preview. So please keep in mind that there will be many changes in the future for its RTM/released version.
+For current version do the following to get things work:</p>
+<ul>
+<li>In order to do .Net mainly using C# and ASP.Net PL in cross-paltform download .Net Core in <a href="https://www.microsoft.com/net/core/platform">.NetCore</a> and install.</li>
+<li>If you use visual studio, you can download it directly from nuget.</li>
+<li>Because the purpose of this .Net Core is its cross-platform, hence we implement it using code editor and command line. For this purpose you can use any code editor(because ofcourse).</li>
+<li>To create new Console Apps, type <code>dotnet new</code> to initialize new C# Console Apps Project.</li>
+<li>Then type <code>dotnet restore</code> to create json config file which is needed for executing the file.</li>
+<li>type <code>dotnet run</code> to run the console apps.</li>
+</ul>
+<p>Other option to create ASP.Net Core is to install <a href="http://yeoman.io/">Yeoman</a> ASP.Net generator by typing:</p>
+<ul>
+<li><code>npm install -g generator-aspnet</code> (make sure you have installed nodejs)</li>
+<li>then type <code>yo aspnet</code></li>
+<li>There are many options available from this menu including Console Apps, so you can create console apps using Yeaoman.</li>
+<li>Pick the option &ldquo;Web Application&rdquo;, then every folders and files will be set up for you.</li>
+<li>type <code>dotnet restore</code> and <code>dotnet run</code> to run it in local server.</li>
+</ul>
+<p>Side note is to install <a href="http://www.omnisharp.net/">Omnisharp</a> for the ease of .Net Cross Platform development which provides many tools including local server to run ASP.Net although .net core provide <a href="https://github.com/aspnet/KestrelHttpServer">Kestrel</a> a web server for ASP.Net Core.</p>
+<p><i>PS: Once again this is still in preview, not RTM yet, so careful when deciding .Net Core/ASP.Net core for your future business apps if you set it up now, because there will be many changes and updates until the RTM version.</i></p></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/.net/">.Net</a>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/windows/">windows</a>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/microsoft/">microsoft</a>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/open-source/">open-source</a>
+                                    
+                                    <a href="https://mfathirirhas.github.io/tags/cross-palform/">cross-palform</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Theme by VarKai,</a>
+        <a href="http://www.gohugo.io/">Powered by Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span><script>document.write(new Date().getFullYear())</script> &copy; Muhammad Fathir Irhas</span>
+    </div>
+</footer>
+    <script src="https://mfathirirhas.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://mfathirirhas.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://mfathirirhas.github.io/js/fancybox.min.js"></script>
+<script src="https://mfathirirhas.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>
