@@ -1,0 +1,80 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "~/mfathirirhas"                  
+#theme = "zozo"
+hasCJKLanguage = true                  
+summaryLength = 100
+paginate = 5                           
+enableEmoji = true
+googleAnalytics = ""                   
+disqusShortname = ""                   
+
+pygmentsUseClasses = true
+pygmentCodeFences = true
+pygmentscodefencesguesssyntax = true
+
+[author]                               
+  name = "Muhammad Fathir Irhas"
+
+[blackfriday]
+  smartypants = false
+
+[[menu.main]]                          
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Posts"
+  weight = 20
+  identifier = "posts"
+  url = "/posts/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "About"
+  weight = 40
+  identifier = "about"
+  url = "/about/"
+
+[[menu.main]]
+  name = "Resume"
+  weight = 50
+  identifier = "resume"
+  url = "/resume/"
+
+[params]
+  subTitle = "Tech and Stuffs."                                       
+  footerSlogan = "Muhammad Fathir Irhas"                                   
+  keywords = ["mfathirirhas"]                                   
+  description = "Muhammad Fathir Irhas's personal site and blogs"                        
+  enableMathJax = true                                                 
+  enableSummary = true                                                 
+  mainSections = ["posts","post"]
+  
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+  enable = false
+  appId = ""
+  appKey = ""
+  placeholder = " "
+  visitor = true
+
+[social]
+  github = "https://github.com/mfathirirhas"
+  twitter = "https://twitter.com/mfathirirhas"
+  linkedin = "https://linkedin.com/in/mfathirirhas"
+  # facebook = ""
+  # weibo = ""
+  # instagram = ""
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
