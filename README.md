@@ -6,4 +6,4 @@
 ## Run
 > hugo server -D
 
-This Blog's template use [Lanyon](https://github.com/varkai/hugo-theme-zozo) by Varkai.
+Template from [ZoZo](https://github.com/varkai/hugo-theme-zozo) by [Varkai](https://varkai.com).
