@@ -5,10 +5,6 @@
     <link>https://mfathirirhas.github.io/categories/</link>
     <description>Recent content in Categories on ~/mfathirirhas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://mfathirirhas.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://mfathirirhas.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
